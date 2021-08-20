@@ -1,0 +1,281 @@
+@import "../../App.scss";
+
+.formloader {
+  position: fixed;
+  background: #00000065;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+  img {
+    filter: brightness(100);
+  }
+  .confirmbox {
+    background: #ffffff;
+    padding: 1rem;
+    border-radius: 0.2rem;
+  }
+}
+
+.course {
+  h4 {
+    font-weight: 600;
+  }
+  .row {
+    .leftbar {
+      nav {
+        box-shadow: 0 0 10px #554a4a33;
+        .pagination {
+          .page-item {
+            .page-link {
+              font-size: 0.9rem;
+              color: $color-dback;
+              border: none;
+              &:hover {
+                background: $color-green;
+                color: #ffffff;
+                border-left: 0.1rem solid white;
+                border-right: 0.1rem solid white;
+              }
+              &:focus {
+                box-shadow: none;
+              }
+            }
+            .active {
+              background-color: $color-green;
+              color: #ffffff;
+            }
+          }
+        }
+      }
+      .dataframe {
+        position: relative;
+        border-radius: 0.2rem;
+        box-shadow: 0 0 10px #554a4a33;
+        .playvideo {
+          position: fixed;
+          background: #00000077;
+          height: 100vh;
+          width: 100%;
+          top: 0;
+          left: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          z-index: 2;
+          .row {
+            .frame {
+              background: #ffffff;
+              height: 73vh;
+              width: 62vw;
+              border-radius: 0.5rem;
+              display: flex;
+              justify-content: center;
+              position: relative;
+              figure {
+                video {
+                  height: 70vh;
+                  width: 60vw;
+                }
+              }
+              .close {
+                position: absolute;
+                height: 2rem;
+                width: 2rem;
+                right: -1rem;
+                top: -1rem;
+                background: #ffffff;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                box-shadow: 0 0 10px #554a4a6c;
+                border-radius: 50%;
+                color: $color-green;
+                &:hover {
+                  background: #e0e0e0;
+                }
+              }
+            }
+          }
+        }
+        #accordionVideos {
+          .accordion-item {
+            box-shadow: 0 0 10px #554a4a33;
+            .accordion-header {
+              .accordion-button {
+                &:focus {
+                  box-shadow: none;
+                }
+                &:not(.collapsed) {
+                  background: none;
+                }
+              }
+            }
+            .accordion-collapse {
+              .accordion-body {
+                .playbtn {
+                  height: 2.5rem;
+                  width: 2.5rem;
+                  border-radius: 50%;
+                  box-shadow: 0 0 5px #554a4a33;
+                  cursor: pointer;
+                }
+              }
+            }
+          }
+        }
+        .day {
+          font-weight: 600;
+        }
+        .wtl {
+          font-weight: 600;
+        }
+        .wtllist {
+          list-style: none;
+          padding: 0;
+          li {
+            font-size: 0.9rem;
+            color: $color-dback;
+          }
+        }
+        .ppts {
+          .ppt {
+            .card {
+              border-top-left-radius: 0.5rem !important;
+              border-top-right-radius: 0.5rem !important;
+              box-shadow: 0 0 10px #554a4a33;
+              padding: 0.1rem;
+              overflow: hidden;
+              &:hover {
+                border: 1px solid #ffffff;
+              }
+            }
+            .card * {
+              border-top-left-radius: 0.5rem !important;
+              border-top-right-radius: 0.5rem !important;
+            }
+          }
+        }
+        .discussback {
+          position: fixed;
+          background: #00000077;
+          height: 100vh;
+          width: 100%;
+          top: 0;
+          left: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          z-index: 1;
+          .row {
+            width: 50%;
+            .frame {
+              background: #ffffff;
+              border-radius: 0.5rem;
+              width: 100%;
+            }
+            .close {
+              cursor: pointer;
+            }
+          }
+        }
+        .discussion-card {
+          .clr1 {
+            background: #ff6c6c;
+          }
+          .clr2 {
+            background: #eeee42;
+          }
+          .clr3 {
+            background: #7eff7e;
+          }
+          .clr4 {
+            background: #5ce7e7;
+          }
+          .clr5 {
+            background: #8080ff;
+          }
+          .clr6 {
+            background: #ff7eff;
+          }
+          .clr7 {
+            background: #ffbb7b;
+          }
+        }
+      }
+    }
+    .rightbar {
+      .card {
+        border: none;
+        overflow: hidden;
+        box-shadow: 0 0 10px #554a4a33;
+      }
+      #playbtn {
+        position: absolute;
+        z-index: 1;
+        height: 2.5rem;
+        width: 2.5rem;
+        text-align: center;
+        background-color: #ffffff;
+        box-shadow: 0 0 6px #554a4a91;
+        svg {
+          color: $color-green;
+        }
+      }
+    }
+    .pagefooter {
+      box-shadow: none;
+      .pagination {
+        .page-item {
+          .page-link {
+            color: $color-dgreen;
+            margin: 0.3rem;
+            border: none;
+            box-shadow: 0 0 10px #554a4a0a;
+            border-radius: 0.2rem;
+            &:focus {
+              box-shadow: none;
+            }
+            &:hover {
+              background: $color-green;
+              color: #ffffff;
+            }
+          }
+          .active {
+            background-color: $color-green;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .course {
+    .row {
+      .leftbar {
+        .dataframe {
+          .playvideo {
+            .row {
+              .frame {
+                height: 50vh;
+                width: 90vw;
+                figure {
+                  video {
+                    height: 48vh;
+                    width: 88vw;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

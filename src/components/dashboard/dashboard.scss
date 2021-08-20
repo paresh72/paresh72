@@ -1,0 +1,85 @@
+@import "../../App.scss";
+
+.bg-chat {
+  background: #dadada !important;
+}
+
+.dashboard {
+  .container {
+    .chatbox {
+      box-shadow: 0 0 10px #554a4a33;
+      background: #ffffff !important;
+      overflow: hidden;
+      .bg-rough {
+        background: #c2c2c2;
+      }
+      .col-lg-3 {
+        height: 83vh;
+        overflow: scroll;
+        scroll-behavior: smooth;
+        &::-webkit-scrollbar {
+          width: 0.2rem;
+        }
+        &::-webkit-scrollbar-thumb {
+          background: #a0a0a0;
+          border-radius: 10rem;
+        }
+        .course {
+          .badge {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 1.6rem;
+            width: 1.6rem;
+          }
+          &:hover {
+            background: #dadada !important;
+          }
+        }
+      }
+      .col-lg-9 {
+        .chats {
+          height: 75vh;
+          position: relative;
+          overflow: scroll;
+          scroll-behavior: smooth;
+          &::-webkit-scrollbar {
+            width: 0.2rem;
+          }
+          &::-webkit-scrollbar-thumb {
+            background: #a0a0a0;
+            border-radius: 10rem;
+          }
+        }
+        .clr1 {
+          background: #ff6c6c;
+        }
+        .clr2 {
+          background: #eeee42;
+        }
+        .clr3 {
+          background: #7eff7e;
+        }
+        .clr4 {
+          background: #5ce7e7;
+        }
+        .clr5 {
+          background: #8080ff;
+        }
+        .clr6 {
+          background: #ff7eff;
+        }
+        .clr7 {
+          background: #ffbb7b;
+        }
+        .bg-pending {
+          background: #dc35461e;
+        }
+        .footer-chats {
+          max-height: 18vh;
+          box-shadow: 0 0 10px #554a4a33;
+        }
+      }
+    }
+  }
+}

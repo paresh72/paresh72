@@ -1,0 +1,33 @@
+@import "../../App.scss";
+
+.login {
+  .row {
+    .formcard {
+      box-shadow: 0 0 10px #554a4a33;
+      font-size: 0.9rem;
+      .heading {
+        font-weight: 600;
+        color: $color-dgreen;
+      }
+      form {
+        .form-control {
+          border: none;
+          box-shadow: 0 0 10px #554a4a3b;
+          font-size: 1rem;
+        }
+        .form-check-input {
+          &:checked {
+            background-color: $color-green;
+            border: 1px solid $color-green;
+          }
+        }
+      }
+      .footer {
+        .btn {
+          width: 50%;
+          border-radius: 2rem;
+        }
+      }
+    }
+  }
+}

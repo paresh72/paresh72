@@ -1,0 +1,37 @@
+@import "../../App.scss";
+
+.dashboard {
+  .leftbar {
+    background: $color-dblue;
+    .accordion {
+      .accordion-item {
+        color: #ffffff;
+        background: transparent;
+        border: none;
+        .accordion-header {
+          button {
+            background: transparent;
+            color: #ffffff;
+            &::after {
+              filter: brightness(20);
+            }
+          }
+        }
+        .accordion-collapse {
+          .accordion-body {
+            button {
+              &:hover {
+                background: $color-green;
+                color: #ffffff;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .rightbar {
+    // remove it
+    position: relative;
+  }
+}

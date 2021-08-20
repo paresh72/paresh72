@@ -1,0 +1,1751 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@6.14.4
+3 info using node@v10.19.0
+4 verbose npm-session 65b2defb558587ad
+5 silly install runPreinstallTopLevelLifecycles
+6 silly preinstall nirbhaydubeywebapi@1.0.0
+7 info lifecycle nirbhaydubeywebapi@1.0.0~preinstall: nirbhaydubeywebapi@1.0.0
+8 silly install loadCurrentTree
+9 silly install readLocalPackageData
+10 timing stage:loadCurrentTree Completed in 768ms
+11 silly install loadIdealTree
+12 silly install cloneCurrentTreeToIdealTree
+13 timing stage:loadIdealTree:cloneCurrentTree Completed in 10ms
+14 silly install loadShrinkwrap
+15 timing stage:loadIdealTree:loadShrinkwrap Completed in 330ms
+16 silly install loadAllDepsIntoIdealTree
+17 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 378ms
+18 timing stage:loadIdealTree Completed in 823ms
+19 silly currentTree nirbhaydubeywebapi@1.0.0
+19 silly currentTree +-- @mapbox/node-pre-gyp@1.0.4
+19 silly currentTree | `-- semver@7.3.5
+19 silly currentTree +-- @sideway/address@4.1.1
+19 silly currentTree +-- @sideway/formula@3.0.0
+19 silly currentTree +-- @sideway/pinpoint@2.0.0
+19 silly currentTree +-- @types/bson@4.0.3
+19 silly currentTree +-- @types/mongodb@3.6.12
+19 silly currentTree +-- @types/node@15.0.1
+19 silly currentTree +-- abbrev@1.1.1
+19 silly currentTree +-- accepts@1.3.7
+19 silly currentTree +-- ansi-regex@2.1.1
+19 silly currentTree +-- aproba@1.2.0
+19 silly currentTree +-- are-we-there-yet@1.1.5
+19 silly currentTree +-- array-flatten@1.1.1
+19 silly currentTree +-- balanced-match@1.0.2
+19 silly currentTree +-- bl@2.2.1
+19 silly currentTree +-- bluebird@3.5.1
+19 silly currentTree +-- body-parser@1.19.0
+19 silly currentTree +-- brace-expansion@1.1.11
+19 silly currentTree +-- bson@1.1.6
+19 silly currentTree +-- buffer-from@1.1.1
+19 silly currentTree +-- bytes@3.1.0
+19 silly currentTree +-- cloudinary-core@2.11.4
+19 silly currentTree +-- cloudinary@1.26.1
+19 silly currentTree +-- code-point-at@1.1.0
+19 silly currentTree +-- concat-map@0.0.1
+19 silly currentTree +-- concat-stream@1.6.2
+19 silly currentTree +-- content-disposition@0.5.3
+19 silly currentTree +-- content-type@1.0.4
+19 silly currentTree +-- cookie-signature@1.0.6
+19 silly currentTree +-- core-js@3.6.5
+19 silly currentTree +-- core-util-is@1.0.2
+19 silly currentTree +-- delegates@1.0.0
+19 silly currentTree +-- denque@1.5.0
+19 silly currentTree +-- depd@1.1.2
+19 silly currentTree +-- destroy@1.0.4
+19 silly currentTree +-- detect-libc@1.0.3
+19 silly currentTree +-- encodeurl@1.0.2
+19 silly currentTree +-- etag@1.8.1
+19 silly currentTree +-- express-fileupload
+19 silly currentTree | `-- dicer
+19 silly currentTree +-- express@4.17.1
+19 silly currentTree +-- forwarded@0.1.2
+19 silly currentTree +-- fresh@0.5.2
+19 silly currentTree +-- fs.realpath@1.0.0
+19 silly currentTree +-- gauge@2.7.4
+19 silly currentTree +-- glob@7.1.6
+19 silly currentTree +-- has-unicode@2.0.1
+19 silly currentTree +-- http-errors@1.7.2
+19 silly currentTree +-- https-proxy-agent@5.0.0
+19 silly currentTree | +-- debug@4.3.1
+19 silly currentTree | `-- ms@2.1.2
+19 silly currentTree +-- iconv-lite@0.4.24
+19 silly currentTree +-- inflight@1.0.6
+19 silly currentTree +-- ipaddr.js@1.9.1
+19 silly currentTree +-- is-fullwidth-code-point@1.0.0
+19 silly currentTree +-- joi@17.4.0
+19 silly currentTree +-- jsonwebtoken@8.5.1
+19 silly currentTree | `-- ms@2.1.3
+19 silly currentTree +-- jwa@1.4.1
+19 silly currentTree +-- jws@3.2.2
+19 silly currentTree +-- lodash.includes@4.3.0
+19 silly currentTree +-- lodash.isboolean@3.0.3
+19 silly currentTree +-- lodash.isinteger@4.0.4
+19 silly currentTree +-- lodash.isnumber@3.0.3
+19 silly currentTree +-- lodash.isplainobject@4.0.6
+19 silly currentTree +-- lodash.isstring@4.0.1
+19 silly currentTree +-- lodash@4.17.21
+19 silly currentTree +-- lru-cache@6.0.0
+19 silly currentTree +-- make-dir@3.1.0
+19 silly currentTree | `-- semver@6.3.0
+19 silly currentTree +-- memory-pager@1.5.0
+19 silly currentTree +-- merge-descriptors@1.0.1
+19 silly currentTree +-- methods@1.1.2
+19 silly currentTree +-- mime-db@1.47.0
+19 silly currentTree +-- mime-types@2.1.30
+19 silly currentTree +-- mime@1.6.0
+19 silly currentTree +-- minimatch@3.0.4
+19 silly currentTree +-- minipass@3.1.3
+19 silly currentTree +-- minizlib@2.1.2
+19 silly currentTree +-- mkdirp@1.0.4
+19 silly currentTree +-- mongodb@3.6.6
+19 silly currentTree +-- mongoose-legacy-pluralize@1.0.2
+19 silly currentTree +-- mongoose@5.12.6
+19 silly currentTree | +-- ms@2.1.2
+19 silly currentTree | `-- safe-buffer@5.2.1
+19 silly currentTree +-- mpath@0.8.3
+19 silly currentTree +-- ms@2.0.0
+19 silly currentTree +-- negotiator@0.6.2
+19 silly currentTree +-- node-addon-api@3.1.0
+19 silly currentTree +-- nodemailer@6.6.3
+19 silly currentTree +-- npmlog@4.1.2
+19 silly currentTree +-- number-is-nan@1.0.1
+19 silly currentTree +-- on-finished@2.3.0
+19 silly currentTree +-- parseurl@1.3.3
+19 silly currentTree +-- passport-jwt@4.0.0
+19 silly currentTree +-- passport@0.4.1
+19 silly currentTree +-- path-is-absolute@1.0.1
+19 silly currentTree +-- path-to-regexp@0.1.7
+19 silly currentTree +-- pause@0.0.1
+19 silly currentTree +-- proxy-addr@2.0.6
+19 silly currentTree +-- q@1.5.1
+19 silly currentTree +-- qs@6.7.0
+19 silly currentTree +-- range-parser@1.2.1
+19 silly currentTree +-- raw-body@2.4.0
+19 silly currentTree +-- regexp-clone@1.0.0
+19 silly currentTree +-- rimraf@3.0.2
+19 silly currentTree +-- safe-buffer@5.1.2
+19 silly currentTree +-- safer-buffer@2.1.2
+19 silly currentTree +-- saslprep@1.0.3
+19 silly currentTree +-- semver@5.7.1
+19 silly currentTree +-- send@0.17.1
+19 silly currentTree | `-- ms@2.1.1
+19 silly currentTree +-- serve-static@1.14.1
+19 silly currentTree +-- set-blocking@2.0.0
+19 silly currentTree +-- setprototypeof@1.1.1
+19 silly currentTree +-- signal-exit@3.0.3
+19 silly currentTree +-- sliced@1.0.1
+19 silly currentTree +-- sparse-bitfield@3.0.3
+19 silly currentTree +-- string_decoder@1.1.1
+19 silly currentTree +-- string-width@1.0.2
+19 silly currentTree +-- strip-ansi@3.0.1
+19 silly currentTree +-- toidentifier@1.0.0
+19 silly currentTree +-- type-is@1.6.18
+19 silly currentTree +-- typedarray@0.0.6
+19 silly currentTree +-- unpipe@1.0.0
+19 silly currentTree +-- vary@1.1.2
+19 silly currentTree +-- wrappy@1.0.2
+19 silly currentTree +-- xtend@4.0.2
+19 silly currentTree `-- yallist@4.0.0
+20 silly idealTree nirbhaydubeywebapi@1.0.0
+20 silly idealTree +-- @hapi/hoek@9.2.0
+20 silly idealTree +-- @hapi/topo@5.0.0
+20 silly idealTree +-- @mapbox/node-pre-gyp@1.0.4
+20 silly idealTree | `-- semver@7.3.5
+20 silly idealTree +-- @sideway/address@4.1.1
+20 silly idealTree +-- @sideway/formula@3.0.0
+20 silly idealTree +-- @sideway/pinpoint@2.0.0
+20 silly idealTree +-- @types/bson@4.0.3
+20 silly idealTree +-- @types/mongodb@3.6.12
+20 silly idealTree +-- @types/node@15.0.1
+20 silly idealTree +-- abbrev@1.1.1
+20 silly idealTree +-- accepts@1.3.7
+20 silly idealTree +-- agent-base@6.0.2
+20 silly idealTree | +-- debug@4.3.1
+20 silly idealTree | `-- ms@2.1.2
+20 silly idealTree +-- ansi-regex@2.1.1
+20 silly idealTree +-- append-field@1.0.0
+20 silly idealTree +-- aproba@1.2.0
+20 silly idealTree +-- are-we-there-yet@1.1.5
+20 silly idealTree +-- array-flatten@1.1.1
+20 silly idealTree +-- balanced-match@1.0.2
+20 silly idealTree +-- bcrypt@5.0.1
+20 silly idealTree +-- bl@2.2.1
+20 silly idealTree +-- bluebird@3.5.1
+20 silly idealTree +-- body-parser@1.19.0
+20 silly idealTree +-- brace-expansion@1.1.11
+20 silly idealTree +-- bson@1.1.6
+20 silly idealTree +-- buffer-equal-constant-time@1.0.1
+20 silly idealTree +-- buffer-from@1.1.1
+20 silly idealTree +-- busboy@0.2.14
+20 silly idealTree | +-- isarray@0.0.1
+20 silly idealTree | +-- readable-stream@1.1.14
+20 silly idealTree | `-- string_decoder@0.10.31
+20 silly idealTree +-- bytes@3.1.0
+20 silly idealTree +-- chownr@2.0.0
+20 silly idealTree +-- cloudinary-core@2.11.4
+20 silly idealTree +-- cloudinary@1.26.1
+20 silly idealTree +-- code-point-at@1.1.0
+20 silly idealTree +-- concat-map@0.0.1
+20 silly idealTree +-- concat-stream@1.6.2
+20 silly idealTree +-- console-control-strings@1.1.0
+20 silly idealTree +-- content-disposition@0.5.3
+20 silly idealTree +-- content-type@1.0.4
+20 silly idealTree +-- cookie-signature@1.0.6
+20 silly idealTree +-- cookie@0.4.0
+20 silly idealTree +-- core-js@3.6.5
+20 silly idealTree +-- core-util-is@1.0.2
+20 silly idealTree +-- cors@2.8.5
+20 silly idealTree +-- debug@2.6.9
+20 silly idealTree +-- delegates@1.0.0
+20 silly idealTree +-- denque@1.5.0
+20 silly idealTree +-- depd@1.1.2
+20 silly idealTree +-- destroy@1.0.4
+20 silly idealTree +-- detect-libc@1.0.3
+20 silly idealTree +-- dicer@0.2.5
+20 silly idealTree | +-- isarray@0.0.1
+20 silly idealTree | +-- readable-stream@1.1.14
+20 silly idealTree | `-- string_decoder@0.10.31
+20 silly idealTree +-- ecdsa-sig-formatter@1.0.11
+20 silly idealTree +-- ee-first@1.1.1
+20 silly idealTree +-- encodeurl@1.0.2
+20 silly idealTree +-- escape-html@1.0.3
+20 silly idealTree +-- etag@1.8.1
+20 silly idealTree +-- express-fileupload@1.2.1
+20 silly idealTree | +-- busboy@0.3.1
+20 silly idealTree | `-- dicer@0.3.0
+20 silly idealTree +-- express@4.17.1
+20 silly idealTree +-- finalhandler@1.1.2
+20 silly idealTree +-- forwarded@0.1.2
+20 silly idealTree +-- fresh@0.5.2
+20 silly idealTree +-- fs-minipass@2.1.0
+20 silly idealTree +-- fs.realpath@1.0.0
+20 silly idealTree +-- gauge@2.7.4
+20 silly idealTree +-- glob@7.1.6
+20 silly idealTree +-- has-unicode@2.0.1
+20 silly idealTree +-- http-errors@1.7.2
+20 silly idealTree +-- https-proxy-agent@5.0.0
+20 silly idealTree | +-- debug@4.3.1
+20 silly idealTree | `-- ms@2.1.2
+20 silly idealTree +-- iconv-lite@0.4.24
+20 silly idealTree +-- inflight@1.0.6
+20 silly idealTree +-- inherits@2.0.3
+20 silly idealTree +-- ipaddr.js@1.9.1
+20 silly idealTree +-- is-fullwidth-code-point@1.0.0
+20 silly idealTree +-- isarray@1.0.0
+20 silly idealTree +-- joi@17.4.0
+20 silly idealTree +-- jsonwebtoken@8.5.1
+20 silly idealTree | `-- ms@2.1.3
+20 silly idealTree +-- jwa@1.4.1
+20 silly idealTree +-- jws@3.2.2
+20 silly idealTree +-- kareem@2.3.2
+20 silly idealTree +-- lodash.includes@4.3.0
+20 silly idealTree +-- lodash.isboolean@3.0.3
+20 silly idealTree +-- lodash.isinteger@4.0.4
+20 silly idealTree +-- lodash.isnumber@3.0.3
+20 silly idealTree +-- lodash.isplainobject@4.0.6
+20 silly idealTree +-- lodash.isstring@4.0.1
+20 silly idealTree +-- lodash.once@4.1.1
+20 silly idealTree +-- lodash@4.17.21
+20 silly idealTree +-- lru-cache@6.0.0
+20 silly idealTree +-- make-dir@3.1.0
+20 silly idealTree | `-- semver@6.3.0
+20 silly idealTree +-- media-typer@0.3.0
+20 silly idealTree +-- memory-pager@1.5.0
+20 silly idealTree +-- merge-descriptors@1.0.1
+20 silly idealTree +-- methods@1.1.2
+20 silly idealTree +-- mime-db@1.47.0
+20 silly idealTree +-- mime-types@2.1.30
+20 silly idealTree +-- mime@1.6.0
+20 silly idealTree +-- minimatch@3.0.4
+20 silly idealTree +-- minimist@1.2.5
+20 silly idealTree +-- minipass@3.1.3
+20 silly idealTree +-- minizlib@2.1.2
+20 silly idealTree +-- mkdirp@1.0.4
+20 silly idealTree +-- mongodb@3.6.6
+20 silly idealTree +-- mongoose-legacy-pluralize@1.0.2
+20 silly idealTree +-- mongoose@5.12.6
+20 silly idealTree | +-- ms@2.1.2
+20 silly idealTree | `-- safe-buffer@5.2.1
+20 silly idealTree +-- mpath@0.8.3
+20 silly idealTree +-- mquery@3.2.5
+20 silly idealTree | `-- debug@3.1.0
+20 silly idealTree +-- ms@2.0.0
+20 silly idealTree +-- multer@1.4.2
+20 silly idealTree | `-- mkdirp@0.5.5
+20 silly idealTree +-- negotiator@0.6.2
+20 silly idealTree +-- node-addon-api@3.1.0
+20 silly idealTree +-- node-fetch@2.6.1
+20 silly idealTree +-- nodemailer@6.6.3
+20 silly idealTree +-- nopt@5.0.0
+20 silly idealTree +-- npmlog@4.1.2
+20 silly idealTree +-- number-is-nan@1.0.1
+20 silly idealTree +-- object-assign@4.1.1
+20 silly idealTree +-- on-finished@2.3.0
+20 silly idealTree +-- once@1.4.0
+20 silly idealTree +-- optional-require@1.0.3
+20 silly idealTree +-- parseurl@1.3.3
+20 silly idealTree +-- passport-jwt@4.0.0
+20 silly idealTree +-- passport-strategy@1.0.0
+20 silly idealTree +-- passport@0.4.1
+20 silly idealTree +-- path-is-absolute@1.0.1
+20 silly idealTree +-- path-to-regexp@0.1.7
+20 silly idealTree +-- pause@0.0.1
+20 silly idealTree +-- process-nextick-args@2.0.1
+20 silly idealTree +-- proxy-addr@2.0.6
+20 silly idealTree +-- q@1.5.1
+20 silly idealTree +-- qs@6.7.0
+20 silly idealTree +-- range-parser@1.2.1
+20 silly idealTree +-- raw-body@2.4.0
+20 silly idealTree +-- readable-stream@2.3.7
+20 silly idealTree +-- regexp-clone@1.0.0
+20 silly idealTree +-- rimraf@3.0.2
+20 silly idealTree +-- safe-buffer@5.1.2
+20 silly idealTree +-- safer-buffer@2.1.2
+20 silly idealTree +-- saslprep@1.0.3
+20 silly idealTree +-- semver@5.7.1
+20 silly idealTree +-- send@0.17.1
+20 silly idealTree | `-- ms@2.1.1
+20 silly idealTree +-- serve-static@1.14.1
+20 silly idealTree +-- set-blocking@2.0.0
+20 silly idealTree +-- setprototypeof@1.1.1
+20 silly idealTree +-- sift@13.5.2
+20 silly idealTree +-- signal-exit@3.0.3
+20 silly idealTree +-- sliced@1.0.1
+20 silly idealTree +-- sparse-bitfield@3.0.3
+20 silly idealTree +-- statuses@1.5.0
+20 silly idealTree +-- streamsearch@0.1.2
+20 silly idealTree +-- string_decoder@1.1.1
+20 silly idealTree +-- string-width@1.0.2
+20 silly idealTree +-- strip-ansi@3.0.1
+20 silly idealTree +-- tar@6.1.0
+20 silly idealTree +-- toidentifier@1.0.0
+20 silly idealTree +-- type-is@1.6.18
+20 silly idealTree +-- typedarray@0.0.6
+20 silly idealTree +-- unpipe@1.0.0
+20 silly idealTree +-- util-deprecate@1.0.2
+20 silly idealTree +-- utils-merge@1.0.1
+20 silly idealTree +-- vary@1.1.2
+20 silly idealTree +-- wide-align@1.1.3
+20 silly idealTree +-- wrappy@1.0.2
+20 silly idealTree +-- xtend@4.0.2
+20 silly idealTree `-- yallist@4.0.0
+21 silly install generateActionsToTake
+22 timing stage:generateActionsToTake Completed in 50ms
+23 silly diffTrees action count 54
+24 silly diffTrees add @hapi/hoek@9.2.0
+25 silly diffTrees add @hapi/topo@5.0.0
+26 silly diffTrees add ms@2.1.2
+27 silly diffTrees add debug@4.3.1
+28 silly diffTrees add agent-base@6.0.2
+29 silly diffTrees add append-field@1.0.0
+30 silly diffTrees add buffer-equal-constant-time@1.0.1
+31 silly diffTrees add isarray@0.0.1
+32 silly diffTrees add string_decoder@0.10.31
+33 silly diffTrees add chownr@2.0.0
+34 silly diffTrees add console-control-strings@1.1.0
+35 silly diffTrees add cookie@0.4.0
+36 silly diffTrees add debug@2.6.9
+37 silly diffTrees add isarray@0.0.1
+38 silly diffTrees add string_decoder@0.10.31
+39 silly diffTrees add ecdsa-sig-formatter@1.0.11
+40 silly diffTrees add ee-first@1.1.1
+41 silly diffTrees add escape-html@1.0.3
+42 silly diffTrees add fs-minipass@2.1.0
+43 silly diffTrees add inherits@2.0.3
+44 silly diffTrees add readable-stream@1.1.14
+45 silly diffTrees add readable-stream@1.1.14
+46 silly diffTrees add isarray@1.0.0
+47 silly diffTrees add kareem@2.3.2
+48 silly diffTrees add lodash.once@4.1.1
+49 silly diffTrees add media-typer@0.3.0
+50 silly diffTrees add minimist@1.2.5
+51 silly diffTrees add debug@3.1.0
+52 silly diffTrees add mquery@3.2.5
+53 silly diffTrees add mkdirp@0.5.5
+54 silly diffTrees add node-fetch@2.6.1
+55 silly diffTrees add nopt@5.0.0
+56 silly diffTrees add object-assign@4.1.1
+57 silly diffTrees add once@1.4.0
+58 silly diffTrees add optional-require@1.0.3
+59 silly diffTrees add passport-strategy@1.0.0
+60 silly diffTrees add process-nextick-args@2.0.1
+61 silly diffTrees add sift@13.5.2
+62 silly diffTrees add statuses@1.5.0
+63 silly diffTrees add finalhandler@1.1.2
+64 silly diffTrees add streamsearch@0.1.2
+65 silly diffTrees add dicer@0.2.5
+66 silly diffTrees add busboy@0.2.14
+67 silly diffTrees update dicer@0.3.0
+68 silly diffTrees add busboy@0.3.1
+69 silly diffTrees add tar@6.1.0
+70 silly diffTrees add util-deprecate@1.0.2
+71 silly diffTrees add readable-stream@2.3.7
+72 silly diffTrees add utils-merge@1.0.1
+73 silly diffTrees add wide-align@1.1.3
+74 silly diffTrees add bcrypt@5.0.1
+75 silly diffTrees add cors@2.8.5
+76 silly diffTrees update express-fileupload@1.2.1
+77 silly diffTrees add multer@1.4.2
+78 silly decomposeActions action count 436
+79 silly decomposeActions fetch @hapi/hoek@9.2.0
+80 silly decomposeActions extract @hapi/hoek@9.2.0
+81 silly decomposeActions preinstall @hapi/hoek@9.2.0
+82 silly decomposeActions build @hapi/hoek@9.2.0
+83 silly decomposeActions install @hapi/hoek@9.2.0
+84 silly decomposeActions postinstall @hapi/hoek@9.2.0
+85 silly decomposeActions finalize @hapi/hoek@9.2.0
+86 silly decomposeActions refresh-package-json @hapi/hoek@9.2.0
+87 silly decomposeActions fetch @hapi/topo@5.0.0
+88 silly decomposeActions extract @hapi/topo@5.0.0
+89 silly decomposeActions preinstall @hapi/topo@5.0.0
+90 silly decomposeActions build @hapi/topo@5.0.0
+91 silly decomposeActions install @hapi/topo@5.0.0
+92 silly decomposeActions postinstall @hapi/topo@5.0.0
+93 silly decomposeActions finalize @hapi/topo@5.0.0
+94 silly decomposeActions refresh-package-json @hapi/topo@5.0.0
+95 silly decomposeActions fetch ms@2.1.2
+96 silly decomposeActions extract ms@2.1.2
+97 silly decomposeActions preinstall ms@2.1.2
+98 silly decomposeActions build ms@2.1.2
+99 silly decomposeActions install ms@2.1.2
+100 silly decomposeActions postinstall ms@2.1.2
+101 silly decomposeActions finalize ms@2.1.2
+102 silly decomposeActions refresh-package-json ms@2.1.2
+103 silly decomposeActions fetch debug@4.3.1
+104 silly decomposeActions extract debug@4.3.1
+105 silly decomposeActions preinstall debug@4.3.1
+106 silly decomposeActions build debug@4.3.1
+107 silly decomposeActions install debug@4.3.1
+108 silly decomposeActions postinstall debug@4.3.1
+109 silly decomposeActions finalize debug@4.3.1
+110 silly decomposeActions refresh-package-json debug@4.3.1
+111 silly decomposeActions fetch agent-base@6.0.2
+112 silly decomposeActions extract agent-base@6.0.2
+113 silly decomposeActions preinstall agent-base@6.0.2
+114 silly decomposeActions build agent-base@6.0.2
+115 silly decomposeActions install agent-base@6.0.2
+116 silly decomposeActions postinstall agent-base@6.0.2
+117 silly decomposeActions finalize agent-base@6.0.2
+118 silly decomposeActions refresh-package-json agent-base@6.0.2
+119 silly decomposeActions fetch append-field@1.0.0
+120 silly decomposeActions extract append-field@1.0.0
+121 silly decomposeActions preinstall append-field@1.0.0
+122 silly decomposeActions build append-field@1.0.0
+123 silly decomposeActions install append-field@1.0.0
+124 silly decomposeActions postinstall append-field@1.0.0
+125 silly decomposeActions finalize append-field@1.0.0
+126 silly decomposeActions refresh-package-json append-field@1.0.0
+127 silly decomposeActions fetch buffer-equal-constant-time@1.0.1
+128 silly decomposeActions extract buffer-equal-constant-time@1.0.1
+129 silly decomposeActions preinstall buffer-equal-constant-time@1.0.1
+130 silly decomposeActions build buffer-equal-constant-time@1.0.1
+131 silly decomposeActions install buffer-equal-constant-time@1.0.1
+132 silly decomposeActions postinstall buffer-equal-constant-time@1.0.1
+133 silly decomposeActions finalize buffer-equal-constant-time@1.0.1
+134 silly decomposeActions refresh-package-json buffer-equal-constant-time@1.0.1
+135 silly decomposeActions fetch isarray@0.0.1
+136 silly decomposeActions extract isarray@0.0.1
+137 silly decomposeActions preinstall isarray@0.0.1
+138 silly decomposeActions build isarray@0.0.1
+139 silly decomposeActions install isarray@0.0.1
+140 silly decomposeActions postinstall isarray@0.0.1
+141 silly decomposeActions finalize isarray@0.0.1
+142 silly decomposeActions refresh-package-json isarray@0.0.1
+143 silly decomposeActions fetch string_decoder@0.10.31
+144 silly decomposeActions extract string_decoder@0.10.31
+145 silly decomposeActions preinstall string_decoder@0.10.31
+146 silly decomposeActions build string_decoder@0.10.31
+147 silly decomposeActions install string_decoder@0.10.31
+148 silly decomposeActions postinstall string_decoder@0.10.31
+149 silly decomposeActions finalize string_decoder@0.10.31
+150 silly decomposeActions refresh-package-json string_decoder@0.10.31
+151 silly decomposeActions fetch chownr@2.0.0
+152 silly decomposeActions extract chownr@2.0.0
+153 silly decomposeActions preinstall chownr@2.0.0
+154 silly decomposeActions build chownr@2.0.0
+155 silly decomposeActions install chownr@2.0.0
+156 silly decomposeActions postinstall chownr@2.0.0
+157 silly decomposeActions finalize chownr@2.0.0
+158 silly decomposeActions refresh-package-json chownr@2.0.0
+159 silly decomposeActions fetch console-control-strings@1.1.0
+160 silly decomposeActions extract console-control-strings@1.1.0
+161 silly decomposeActions preinstall console-control-strings@1.1.0
+162 silly decomposeActions build console-control-strings@1.1.0
+163 silly decomposeActions install console-control-strings@1.1.0
+164 silly decomposeActions postinstall console-control-strings@1.1.0
+165 silly decomposeActions finalize console-control-strings@1.1.0
+166 silly decomposeActions refresh-package-json console-control-strings@1.1.0
+167 silly decomposeActions fetch cookie@0.4.0
+168 silly decomposeActions extract cookie@0.4.0
+169 silly decomposeActions preinstall cookie@0.4.0
+170 silly decomposeActions build cookie@0.4.0
+171 silly decomposeActions install cookie@0.4.0
+172 silly decomposeActions postinstall cookie@0.4.0
+173 silly decomposeActions finalize cookie@0.4.0
+174 silly decomposeActions refresh-package-json cookie@0.4.0
+175 silly decomposeActions fetch debug@2.6.9
+176 silly decomposeActions extract debug@2.6.9
+177 silly decomposeActions preinstall debug@2.6.9
+178 silly decomposeActions build debug@2.6.9
+179 silly decomposeActions install debug@2.6.9
+180 silly decomposeActions postinstall debug@2.6.9
+181 silly decomposeActions finalize debug@2.6.9
+182 silly decomposeActions refresh-package-json debug@2.6.9
+183 silly decomposeActions fetch isarray@0.0.1
+184 silly decomposeActions extract isarray@0.0.1
+185 silly decomposeActions preinstall isarray@0.0.1
+186 silly decomposeActions build isarray@0.0.1
+187 silly decomposeActions install isarray@0.0.1
+188 silly decomposeActions postinstall isarray@0.0.1
+189 silly decomposeActions finalize isarray@0.0.1
+190 silly decomposeActions refresh-package-json isarray@0.0.1
+191 silly decomposeActions fetch string_decoder@0.10.31
+192 silly decomposeActions extract string_decoder@0.10.31
+193 silly decomposeActions preinstall string_decoder@0.10.31
+194 silly decomposeActions build string_decoder@0.10.31
+195 silly decomposeActions install string_decoder@0.10.31
+196 silly decomposeActions postinstall string_decoder@0.10.31
+197 silly decomposeActions finalize string_decoder@0.10.31
+198 silly decomposeActions refresh-package-json string_decoder@0.10.31
+199 silly decomposeActions fetch ecdsa-sig-formatter@1.0.11
+200 silly decomposeActions extract ecdsa-sig-formatter@1.0.11
+201 silly decomposeActions preinstall ecdsa-sig-formatter@1.0.11
+202 silly decomposeActions build ecdsa-sig-formatter@1.0.11
+203 silly decomposeActions install ecdsa-sig-formatter@1.0.11
+204 silly decomposeActions postinstall ecdsa-sig-formatter@1.0.11
+205 silly decomposeActions finalize ecdsa-sig-formatter@1.0.11
+206 silly decomposeActions refresh-package-json ecdsa-sig-formatter@1.0.11
+207 silly decomposeActions fetch ee-first@1.1.1
+208 silly decomposeActions extract ee-first@1.1.1
+209 silly decomposeActions preinstall ee-first@1.1.1
+210 silly decomposeActions build ee-first@1.1.1
+211 silly decomposeActions install ee-first@1.1.1
+212 silly decomposeActions postinstall ee-first@1.1.1
+213 silly decomposeActions finalize ee-first@1.1.1
+214 silly decomposeActions refresh-package-json ee-first@1.1.1
+215 silly decomposeActions fetch escape-html@1.0.3
+216 silly decomposeActions extract escape-html@1.0.3
+217 silly decomposeActions preinstall escape-html@1.0.3
+218 silly decomposeActions build escape-html@1.0.3
+219 silly decomposeActions install escape-html@1.0.3
+220 silly decomposeActions postinstall escape-html@1.0.3
+221 silly decomposeActions finalize escape-html@1.0.3
+222 silly decomposeActions refresh-package-json escape-html@1.0.3
+223 silly decomposeActions fetch fs-minipass@2.1.0
+224 silly decomposeActions extract fs-minipass@2.1.0
+225 silly decomposeActions preinstall fs-minipass@2.1.0
+226 silly decomposeActions build fs-minipass@2.1.0
+227 silly decomposeActions install fs-minipass@2.1.0
+228 silly decomposeActions postinstall fs-minipass@2.1.0
+229 silly decomposeActions finalize fs-minipass@2.1.0
+230 silly decomposeActions refresh-package-json fs-minipass@2.1.0
+231 silly decomposeActions fetch inherits@2.0.3
+232 silly decomposeActions extract inherits@2.0.3
+233 silly decomposeActions preinstall inherits@2.0.3
+234 silly decomposeActions build inherits@2.0.3
+235 silly decomposeActions install inherits@2.0.3
+236 silly decomposeActions postinstall inherits@2.0.3
+237 silly decomposeActions finalize inherits@2.0.3
+238 silly decomposeActions refresh-package-json inherits@2.0.3
+239 silly decomposeActions fetch readable-stream@1.1.14
+240 silly decomposeActions extract readable-stream@1.1.14
+241 silly decomposeActions preinstall readable-stream@1.1.14
+242 silly decomposeActions build readable-stream@1.1.14
+243 silly decomposeActions install readable-stream@1.1.14
+244 silly decomposeActions postinstall readable-stream@1.1.14
+245 silly decomposeActions finalize readable-stream@1.1.14
+246 silly decomposeActions refresh-package-json readable-stream@1.1.14
+247 silly decomposeActions fetch readable-stream@1.1.14
+248 silly decomposeActions extract readable-stream@1.1.14
+249 silly decomposeActions preinstall readable-stream@1.1.14
+250 silly decomposeActions build readable-stream@1.1.14
+251 silly decomposeActions install readable-stream@1.1.14
+252 silly decomposeActions postinstall readable-stream@1.1.14
+253 silly decomposeActions finalize readable-stream@1.1.14
+254 silly decomposeActions refresh-package-json readable-stream@1.1.14
+255 silly decomposeActions fetch isarray@1.0.0
+256 silly decomposeActions extract isarray@1.0.0
+257 silly decomposeActions preinstall isarray@1.0.0
+258 silly decomposeActions build isarray@1.0.0
+259 silly decomposeActions install isarray@1.0.0
+260 silly decomposeActions postinstall isarray@1.0.0
+261 silly decomposeActions finalize isarray@1.0.0
+262 silly decomposeActions refresh-package-json isarray@1.0.0
+263 silly decomposeActions fetch kareem@2.3.2
+264 silly decomposeActions extract kareem@2.3.2
+265 silly decomposeActions preinstall kareem@2.3.2
+266 silly decomposeActions build kareem@2.3.2
+267 silly decomposeActions install kareem@2.3.2
+268 silly decomposeActions postinstall kareem@2.3.2
+269 silly decomposeActions finalize kareem@2.3.2
+270 silly decomposeActions refresh-package-json kareem@2.3.2
+271 silly decomposeActions fetch lodash.once@4.1.1
+272 silly decomposeActions extract lodash.once@4.1.1
+273 silly decomposeActions preinstall lodash.once@4.1.1
+274 silly decomposeActions build lodash.once@4.1.1
+275 silly decomposeActions install lodash.once@4.1.1
+276 silly decomposeActions postinstall lodash.once@4.1.1
+277 silly decomposeActions finalize lodash.once@4.1.1
+278 silly decomposeActions refresh-package-json lodash.once@4.1.1
+279 silly decomposeActions fetch media-typer@0.3.0
+280 silly decomposeActions extract media-typer@0.3.0
+281 silly decomposeActions preinstall media-typer@0.3.0
+282 silly decomposeActions build media-typer@0.3.0
+283 silly decomposeActions install media-typer@0.3.0
+284 silly decomposeActions postinstall media-typer@0.3.0
+285 silly decomposeActions finalize media-typer@0.3.0
+286 silly decomposeActions refresh-package-json media-typer@0.3.0
+287 silly decomposeActions fetch minimist@1.2.5
+288 silly decomposeActions extract minimist@1.2.5
+289 silly decomposeActions preinstall minimist@1.2.5
+290 silly decomposeActions build minimist@1.2.5
+291 silly decomposeActions install minimist@1.2.5
+292 silly decomposeActions postinstall minimist@1.2.5
+293 silly decomposeActions finalize minimist@1.2.5
+294 silly decomposeActions refresh-package-json minimist@1.2.5
+295 silly decomposeActions fetch debug@3.1.0
+296 silly decomposeActions extract debug@3.1.0
+297 silly decomposeActions preinstall debug@3.1.0
+298 silly decomposeActions build debug@3.1.0
+299 silly decomposeActions install debug@3.1.0
+300 silly decomposeActions postinstall debug@3.1.0
+301 silly decomposeActions finalize debug@3.1.0
+302 silly decomposeActions refresh-package-json debug@3.1.0
+303 silly decomposeActions fetch mquery@3.2.5
+304 silly decomposeActions extract mquery@3.2.5
+305 silly decomposeActions preinstall mquery@3.2.5
+306 silly decomposeActions build mquery@3.2.5
+307 silly decomposeActions install mquery@3.2.5
+308 silly decomposeActions postinstall mquery@3.2.5
+309 silly decomposeActions finalize mquery@3.2.5
+310 silly decomposeActions refresh-package-json mquery@3.2.5
+311 silly decomposeActions fetch mkdirp@0.5.5
+312 silly decomposeActions extract mkdirp@0.5.5
+313 silly decomposeActions preinstall mkdirp@0.5.5
+314 silly decomposeActions build mkdirp@0.5.5
+315 silly decomposeActions install mkdirp@0.5.5
+316 silly decomposeActions postinstall mkdirp@0.5.5
+317 silly decomposeActions finalize mkdirp@0.5.5
+318 silly decomposeActions refresh-package-json mkdirp@0.5.5
+319 silly decomposeActions fetch node-fetch@2.6.1
+320 silly decomposeActions extract node-fetch@2.6.1
+321 silly decomposeActions preinstall node-fetch@2.6.1
+322 silly decomposeActions build node-fetch@2.6.1
+323 silly decomposeActions install node-fetch@2.6.1
+324 silly decomposeActions postinstall node-fetch@2.6.1
+325 silly decomposeActions finalize node-fetch@2.6.1
+326 silly decomposeActions refresh-package-json node-fetch@2.6.1
+327 silly decomposeActions fetch nopt@5.0.0
+328 silly decomposeActions extract nopt@5.0.0
+329 silly decomposeActions preinstall nopt@5.0.0
+330 silly decomposeActions build nopt@5.0.0
+331 silly decomposeActions install nopt@5.0.0
+332 silly decomposeActions postinstall nopt@5.0.0
+333 silly decomposeActions finalize nopt@5.0.0
+334 silly decomposeActions refresh-package-json nopt@5.0.0
+335 silly decomposeActions fetch object-assign@4.1.1
+336 silly decomposeActions extract object-assign@4.1.1
+337 silly decomposeActions preinstall object-assign@4.1.1
+338 silly decomposeActions build object-assign@4.1.1
+339 silly decomposeActions install object-assign@4.1.1
+340 silly decomposeActions postinstall object-assign@4.1.1
+341 silly decomposeActions finalize object-assign@4.1.1
+342 silly decomposeActions refresh-package-json object-assign@4.1.1
+343 silly decomposeActions fetch once@1.4.0
+344 silly decomposeActions extract once@1.4.0
+345 silly decomposeActions preinstall once@1.4.0
+346 silly decomposeActions build once@1.4.0
+347 silly decomposeActions install once@1.4.0
+348 silly decomposeActions postinstall once@1.4.0
+349 silly decomposeActions finalize once@1.4.0
+350 silly decomposeActions refresh-package-json once@1.4.0
+351 silly decomposeActions fetch optional-require@1.0.3
+352 silly decomposeActions extract optional-require@1.0.3
+353 silly decomposeActions preinstall optional-require@1.0.3
+354 silly decomposeActions build optional-require@1.0.3
+355 silly decomposeActions install optional-require@1.0.3
+356 silly decomposeActions postinstall optional-require@1.0.3
+357 silly decomposeActions finalize optional-require@1.0.3
+358 silly decomposeActions refresh-package-json optional-require@1.0.3
+359 silly decomposeActions fetch passport-strategy@1.0.0
+360 silly decomposeActions extract passport-strategy@1.0.0
+361 silly decomposeActions preinstall passport-strategy@1.0.0
+362 silly decomposeActions build passport-strategy@1.0.0
+363 silly decomposeActions install passport-strategy@1.0.0
+364 silly decomposeActions postinstall passport-strategy@1.0.0
+365 silly decomposeActions finalize passport-strategy@1.0.0
+366 silly decomposeActions refresh-package-json passport-strategy@1.0.0
+367 silly decomposeActions fetch process-nextick-args@2.0.1
+368 silly decomposeActions extract process-nextick-args@2.0.1
+369 silly decomposeActions preinstall process-nextick-args@2.0.1
+370 silly decomposeActions build process-nextick-args@2.0.1
+371 silly decomposeActions install process-nextick-args@2.0.1
+372 silly decomposeActions postinstall process-nextick-args@2.0.1
+373 silly decomposeActions finalize process-nextick-args@2.0.1
+374 silly decomposeActions refresh-package-json process-nextick-args@2.0.1
+375 silly decomposeActions fetch sift@13.5.2
+376 silly decomposeActions extract sift@13.5.2
+377 silly decomposeActions preinstall sift@13.5.2
+378 silly decomposeActions build sift@13.5.2
+379 silly decomposeActions install sift@13.5.2
+380 silly decomposeActions postinstall sift@13.5.2
+381 silly decomposeActions finalize sift@13.5.2
+382 silly decomposeActions refresh-package-json sift@13.5.2
+383 silly decomposeActions fetch statuses@1.5.0
+384 silly decomposeActions extract statuses@1.5.0
+385 silly decomposeActions preinstall statuses@1.5.0
+386 silly decomposeActions build statuses@1.5.0
+387 silly decomposeActions install statuses@1.5.0
+388 silly decomposeActions postinstall statuses@1.5.0
+389 silly decomposeActions finalize statuses@1.5.0
+390 silly decomposeActions refresh-package-json statuses@1.5.0
+391 silly decomposeActions fetch finalhandler@1.1.2
+392 silly decomposeActions extract finalhandler@1.1.2
+393 silly decomposeActions preinstall finalhandler@1.1.2
+394 silly decomposeActions build finalhandler@1.1.2
+395 silly decomposeActions install finalhandler@1.1.2
+396 silly decomposeActions postinstall finalhandler@1.1.2
+397 silly decomposeActions finalize finalhandler@1.1.2
+398 silly decomposeActions refresh-package-json finalhandler@1.1.2
+399 silly decomposeActions fetch streamsearch@0.1.2
+400 silly decomposeActions extract streamsearch@0.1.2
+401 silly decomposeActions preinstall streamsearch@0.1.2
+402 silly decomposeActions build streamsearch@0.1.2
+403 silly decomposeActions install streamsearch@0.1.2
+404 silly decomposeActions postinstall streamsearch@0.1.2
+405 silly decomposeActions finalize streamsearch@0.1.2
+406 silly decomposeActions refresh-package-json streamsearch@0.1.2
+407 silly decomposeActions fetch dicer@0.2.5
+408 silly decomposeActions extract dicer@0.2.5
+409 silly decomposeActions preinstall dicer@0.2.5
+410 silly decomposeActions build dicer@0.2.5
+411 silly decomposeActions install dicer@0.2.5
+412 silly decomposeActions postinstall dicer@0.2.5
+413 silly decomposeActions finalize dicer@0.2.5
+414 silly decomposeActions refresh-package-json dicer@0.2.5
+415 silly decomposeActions fetch busboy@0.2.14
+416 silly decomposeActions extract busboy@0.2.14
+417 silly decomposeActions preinstall busboy@0.2.14
+418 silly decomposeActions build busboy@0.2.14
+419 silly decomposeActions install busboy@0.2.14
+420 silly decomposeActions postinstall busboy@0.2.14
+421 silly decomposeActions finalize busboy@0.2.14
+422 silly decomposeActions refresh-package-json busboy@0.2.14
+423 silly decomposeActions unbuild dicer
+424 silly decomposeActions remove dicer
+425 silly decomposeActions fetch dicer@0.3.0
+426 silly decomposeActions extract dicer@0.3.0
+427 silly decomposeActions preinstall dicer@0.3.0
+428 silly decomposeActions build dicer@0.3.0
+429 silly decomposeActions install dicer@0.3.0
+430 silly decomposeActions postinstall dicer@0.3.0
+431 silly decomposeActions finalize dicer@0.3.0
+432 silly decomposeActions refresh-package-json dicer@0.3.0
+433 silly decomposeActions fetch busboy@0.3.1
+434 silly decomposeActions extract busboy@0.3.1
+435 silly decomposeActions preinstall busboy@0.3.1
+436 silly decomposeActions build busboy@0.3.1
+437 silly decomposeActions install busboy@0.3.1
+438 silly decomposeActions postinstall busboy@0.3.1
+439 silly decomposeActions finalize busboy@0.3.1
+440 silly decomposeActions refresh-package-json busboy@0.3.1
+441 silly decomposeActions fetch tar@6.1.0
+442 silly decomposeActions extract tar@6.1.0
+443 silly decomposeActions preinstall tar@6.1.0
+444 silly decomposeActions build tar@6.1.0
+445 silly decomposeActions install tar@6.1.0
+446 silly decomposeActions postinstall tar@6.1.0
+447 silly decomposeActions finalize tar@6.1.0
+448 silly decomposeActions refresh-package-json tar@6.1.0
+449 silly decomposeActions fetch util-deprecate@1.0.2
+450 silly decomposeActions extract util-deprecate@1.0.2
+451 silly decomposeActions preinstall util-deprecate@1.0.2
+452 silly decomposeActions build util-deprecate@1.0.2
+453 silly decomposeActions install util-deprecate@1.0.2
+454 silly decomposeActions postinstall util-deprecate@1.0.2
+455 silly decomposeActions finalize util-deprecate@1.0.2
+456 silly decomposeActions refresh-package-json util-deprecate@1.0.2
+457 silly decomposeActions fetch readable-stream@2.3.7
+458 silly decomposeActions extract readable-stream@2.3.7
+459 silly decomposeActions preinstall readable-stream@2.3.7
+460 silly decomposeActions build readable-stream@2.3.7
+461 silly decomposeActions install readable-stream@2.3.7
+462 silly decomposeActions postinstall readable-stream@2.3.7
+463 silly decomposeActions finalize readable-stream@2.3.7
+464 silly decomposeActions refresh-package-json readable-stream@2.3.7
+465 silly decomposeActions fetch utils-merge@1.0.1
+466 silly decomposeActions extract utils-merge@1.0.1
+467 silly decomposeActions preinstall utils-merge@1.0.1
+468 silly decomposeActions build utils-merge@1.0.1
+469 silly decomposeActions install utils-merge@1.0.1
+470 silly decomposeActions postinstall utils-merge@1.0.1
+471 silly decomposeActions finalize utils-merge@1.0.1
+472 silly decomposeActions refresh-package-json utils-merge@1.0.1
+473 silly decomposeActions fetch wide-align@1.1.3
+474 silly decomposeActions extract wide-align@1.1.3
+475 silly decomposeActions preinstall wide-align@1.1.3
+476 silly decomposeActions build wide-align@1.1.3
+477 silly decomposeActions install wide-align@1.1.3
+478 silly decomposeActions postinstall wide-align@1.1.3
+479 silly decomposeActions finalize wide-align@1.1.3
+480 silly decomposeActions refresh-package-json wide-align@1.1.3
+481 silly decomposeActions fetch bcrypt@5.0.1
+482 silly decomposeActions extract bcrypt@5.0.1
+483 silly decomposeActions preinstall bcrypt@5.0.1
+484 silly decomposeActions build bcrypt@5.0.1
+485 silly decomposeActions install bcrypt@5.0.1
+486 silly decomposeActions postinstall bcrypt@5.0.1
+487 silly decomposeActions finalize bcrypt@5.0.1
+488 silly decomposeActions refresh-package-json bcrypt@5.0.1
+489 silly decomposeActions fetch cors@2.8.5
+490 silly decomposeActions extract cors@2.8.5
+491 silly decomposeActions preinstall cors@2.8.5
+492 silly decomposeActions build cors@2.8.5
+493 silly decomposeActions install cors@2.8.5
+494 silly decomposeActions postinstall cors@2.8.5
+495 silly decomposeActions finalize cors@2.8.5
+496 silly decomposeActions refresh-package-json cors@2.8.5
+497 silly decomposeActions unbuild express-fileupload
+498 silly decomposeActions remove express-fileupload
+499 silly decomposeActions fetch express-fileupload@1.2.1
+500 silly decomposeActions extract express-fileupload@1.2.1
+501 silly decomposeActions preinstall express-fileupload@1.2.1
+502 silly decomposeActions build express-fileupload@1.2.1
+503 silly decomposeActions install express-fileupload@1.2.1
+504 silly decomposeActions postinstall express-fileupload@1.2.1
+505 silly decomposeActions finalize express-fileupload@1.2.1
+506 silly decomposeActions refresh-package-json express-fileupload@1.2.1
+507 silly decomposeActions fetch multer@1.4.2
+508 silly decomposeActions extract multer@1.4.2
+509 silly decomposeActions preinstall multer@1.4.2
+510 silly decomposeActions build multer@1.4.2
+511 silly decomposeActions install multer@1.4.2
+512 silly decomposeActions postinstall multer@1.4.2
+513 silly decomposeActions finalize multer@1.4.2
+514 silly decomposeActions refresh-package-json multer@1.4.2
+515 silly install executeActions
+516 silly doSerial global-install 436
+517 verbose correctMkdir /home/rxtutorial/.npm/_locks correctMkdir not in flight; initializing
+518 verbose lock using /home/rxtutorial/.npm/_locks/staging-3a1b3eefdd2451d8.lock for /home/rxtutorial/rxtutorial/server/node_modules/.staging
+519 silly doParallel extract 54
+520 silly extract @hapi/hoek@9.2.0
+521 silly extract @hapi/topo@5.0.0
+522 silly extract ms@2.1.2
+523 silly extract debug@4.3.1
+524 silly extract agent-base@6.0.2
+525 silly extract append-field@1.0.0
+526 silly extract buffer-equal-constant-time@1.0.1
+527 silly extract isarray@0.0.1
+528 silly extract string_decoder@0.10.31
+529 silly extract chownr@2.0.0
+530 silly extract console-control-strings@1.1.0
+531 silly extract cookie@0.4.0
+532 silly extract debug@2.6.9
+533 silly extract isarray@0.0.1
+534 silly extract string_decoder@0.10.31
+535 silly extract ecdsa-sig-formatter@1.0.11
+536 silly extract ee-first@1.1.1
+537 silly extract escape-html@1.0.3
+538 silly extract fs-minipass@2.1.0
+539 silly extract inherits@2.0.3
+540 silly extract readable-stream@1.1.14
+541 silly extract readable-stream@1.1.14
+542 silly extract isarray@1.0.0
+543 silly extract kareem@2.3.2
+544 silly extract lodash.once@4.1.1
+545 silly extract media-typer@0.3.0
+546 silly extract minimist@1.2.5
+547 silly extract debug@3.1.0
+548 silly extract mquery@3.2.5
+549 silly extract mkdirp@0.5.5
+550 silly extract node-fetch@2.6.1
+551 silly extract nopt@5.0.0
+552 silly extract object-assign@4.1.1
+553 silly extract once@1.4.0
+554 silly extract optional-require@1.0.3
+555 silly extract passport-strategy@1.0.0
+556 silly extract process-nextick-args@2.0.1
+557 silly extract sift@13.5.2
+558 silly extract statuses@1.5.0
+559 silly extract finalhandler@1.1.2
+560 silly extract streamsearch@0.1.2
+561 silly extract dicer@0.2.5
+562 silly extract busboy@0.2.14
+563 silly extract dicer@0.3.0
+564 silly extract busboy@0.3.1
+565 silly extract tar@6.1.0
+566 silly extract util-deprecate@1.0.2
+567 silly extract readable-stream@2.3.7
+568 silly extract utils-merge@1.0.1
+569 silly extract wide-align@1.1.3
+570 silly tarball trying ms@2.1.2 by hash: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
+571 silly tarball trying debug@4.3.1 by hash: sha512-doEwdvm4PCeK4K3RQN2ZC2BYUBaxwLARCqZmMjtF8a51J2Rb0xpVloFRnCODwqjpwnAoao4pelN8l3RJdv3gRQ==
+572 silly tarball trying agent-base@6.0.2 by hash: sha512-RZNwNclF7+MS/8bDg70amg32dyeZGZxiDuQmZxKLAlQjr3jGyLx+4Kkk58UO7D2QdgFIQCovuSuZESne6RG6XQ==
+573 silly tarball trying append-field@1.0.0 by hash: sha1-HjRA6RXwsSA9I3SOeO3XubW0PlY=
+574 silly tarball trying buffer-equal-constant-time@1.0.1 by hash: sha1-+OcRMvf/5uAaXJaXpMbz5I1cyBk=
+575 silly tarball trying isarray@0.0.1 by hash: sha1-ihis/Kmo9Bd+Cav8YDiTmwXR7t8=
+576 silly tarball trying string_decoder@0.10.31 by hash: sha1-YuIDvEF2bGwoyfyEMB2rHFMQ+pQ=
+577 silly tarball trying chownr@2.0.0 by hash: sha512-bIomtDF5KGpdogkLd9VspvFzk9KfpyyGlS8YFVZl7TGPBHL5snIOnxeshwVgPteQ9b4Eydl+pVbIyE1DcvCWgQ==
+578 silly tarball trying console-control-strings@1.1.0 by hash: sha1-PXz0Rk22RG6mRL9LOVB/mFEAjo4=
+579 silly tarball trying cookie@0.4.0 by hash: sha512-+Hp8fLp57wnUSt0tY0tHEXh4voZRDnoIrZPqlo3DPiI4y9lwg/jqx+1Om94/W6ZaPDOUbnjOt/99w66zk+l1Xg==
+580 silly tarball trying debug@2.6.9 by hash: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==
+581 silly tarball trying isarray@0.0.1 by hash: sha1-ihis/Kmo9Bd+Cav8YDiTmwXR7t8=
+582 silly tarball trying string_decoder@0.10.31 by hash: sha1-YuIDvEF2bGwoyfyEMB2rHFMQ+pQ=
+583 silly tarball trying ecdsa-sig-formatter@1.0.11 by hash: sha512-nagl3RYrbNv6kQkeJIpt6NJZy8twLB/2vtz6yN9Z4vRKHN4/QZJIEbqohALSgwKdnksuY3k5Addp5lg8sVoVcQ==
+584 silly tarball trying ee-first@1.1.1 by hash: sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0=
+585 silly tarball trying escape-html@1.0.3 by hash: sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg=
+586 silly tarball trying fs-minipass@2.1.0 by hash: sha512-V/JgOLFCS+R6Vcq0slCuaeWEdNC3ouDlJMNIsacH2VtALiu9mV4LPrHc5cDl8k5aw6J8jwgWWpiTo5RYhmIzvg==
+587 silly tarball trying inherits@2.0.3 by hash: sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
+588 silly tarball trying readable-stream@1.1.14 by hash: sha1-fPTFTvZI44EwhMY23SB54WbAgdk=
+589 silly tarball trying readable-stream@1.1.14 by hash: sha1-fPTFTvZI44EwhMY23SB54WbAgdk=
+590 silly tarball trying isarray@1.0.0 by hash: sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE=
+591 silly tarball trying kareem@2.3.2 by hash: sha512-STHz9P7X2L4Kwn72fA4rGyqyXdmrMSdxqHx9IXon/FXluXieaFA6KJ2upcHAHxQPQ0LeM/OjLrhFxifHewOALQ==
+592 silly tarball trying lodash.once@4.1.1 by hash: sha1-DdOXEhPHxW34gJd9UEyI+0cal6w=
+593 silly tarball trying media-typer@0.3.0 by hash: sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g=
+594 silly tarball trying minimist@1.2.5 by hash: sha512-FM9nNUYrRBAELZQT3xeZQ7fmMOBg6nWNmJKTcgsJeaLstP/UODVpGsr5OhXhhXg6f+qtJ8uiZ+PUxkDWcgIXLw==
+595 silly tarball trying debug@3.1.0 by hash: sha512-OX8XqP7/1a9cqkxYw2yXss15f26NKWBpDXQd0/uK/KPqdQhxbPa994hnzjcE2VqQpDslf55723cKPUOGSmMY3g==
+596 silly tarball trying mquery@3.2.5 by hash: sha512-VjOKHHgU84wij7IUoZzFRU07IAxd5kWJaDmyUzQlbjHjyoeK5TNeeo8ZsFDtTYnSgpW6n/nMNIHvE3u8Lbrf4A==
+597 silly tarball trying mkdirp@0.5.5 by hash: sha512-NKmAlESf6jMGym1++R0Ra7wvhV+wFW63FaSOFPwRahvea0gMUcGUhVeAg/0BC0wiv9ih5NYPB1Wn1UEI1/L+xQ==
+598 silly tarball trying node-fetch@2.6.1 by hash: sha512-V4aYg89jEoVRxRb2fJdAg8FHvI7cEyYdVAh94HH0UIK8oJxUfkjlDQN9RbMx+bEjP7+ggMiFRprSti032Oipxw==
+599 silly tarball trying nopt@5.0.0 by hash: sha512-Tbj67rffqceeLpcRXrT7vKAN8CwfPeIBgM7E6iBkmKLV7bEMwpGgYLGv0jACUsECaa/vuxP0IjEont6umdMgtQ==
+600 silly tarball trying object-assign@4.1.1 by hash: sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
+601 silly tarball trying once@1.4.0 by hash: sha1-WDsap3WWHUsROsF9nFC6753Xa9E=
+602 silly tarball trying optional-require@1.0.3 by hash: sha512-RV2Zp2MY2aeYK5G+B/Sps8lW5NHAzE5QClbFP15j+PWmP+T9PxlJXBOOLoSAdgwFvS4t0aMR4vpedMkbHfh0nA==
+603 silly tarball trying passport-strategy@1.0.0 by hash: sha1-tVOaqPwiWj0a0XlHbd8ja0QPUuQ=
+604 silly tarball trying process-nextick-args@2.0.1 by hash: sha512-3ouUOpQhtgrbOa17J7+uxOTpITYWaGP7/AhoR3+A+/1e9skrzelGi/dXzEYyvbxubEF6Wn2ypscTKiKJFFn1ag==
+605 silly tarball trying sift@13.5.2 by hash: sha512-+gxdEOMA2J+AI+fVsCqeNn7Tgx3M9ZN9jdi95939l1IJ8cZsqS8sqpJyOkic2SJk+1+98Uwryt/gL6XDaV+UZA==
+606 silly tarball trying statuses@1.5.0 by hash: sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
+607 silly tarball trying finalhandler@1.1.2 by hash: sha512-aAWcW57uxVNrQZqFXjITpW3sIUQmHGG3qSb9mUah9MgMC4NeWhNOlNjXEYq3HjRAvL6arUviZGGJsBg6z0zsWA==
+608 silly tarball trying streamsearch@0.1.2 by hash: sha1-gIudDlb8Jz2Am6VzOOkpkZoanxo=
+609 silly tarball trying dicer@0.2.5 by hash: sha1-WZbAhrszIYyBLAkL3cCc0S+stw8=
+610 silly tarball trying busboy@0.2.14 by hash: sha1-bCpiLvz0fFe7vh4qnDetNseSVFM=
+611 silly tarball trying dicer@0.3.0 by hash: sha512-MdceRRWqltEG2dZqO769g27N/3PXfcKl04VhYnBlo2YhH7zPi88VebsjTKclaOyiuMaGU72hTfw3VkUitGcVCA==
+612 silly tarball trying busboy@0.3.1 by hash: sha512-y7tTxhGKXcyBxRKAni+awqx8uqaJKrSFSNFSeRG5CsWNdmy2BIK+6VGWEW7TZnIO/533mtMEA4rOevQV815YJw==
+613 silly tarball trying tar@6.1.0 by hash: sha512-DUCttfhsnLCjwoDoFcI+B2iJgYa93vBnDUATYEeRx6sntCTdN01VnqsIuTlALXla/LWooNg0yEGeB+Y8WdFxGA==
+614 silly tarball trying util-deprecate@1.0.2 by hash: sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8=
+615 silly tarball trying readable-stream@2.3.7 by hash: sha512-Ebho8K4jIbHAxnuxi7o42OrZgF/ZTNcsZj6nRKyUmkhLFq8CHItp/fy6hQZuZmP/n3yZ9VBUbp4zz/mX8hmYPw==
+616 silly tarball trying utils-merge@1.0.1 by hash: sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
+617 silly tarball trying wide-align@1.1.3 by hash: sha512-QGkOQc8XL6Bt5PwnsExKBPuMKBxnGxWWW3fU55Xt4feHozMUhdUMaBCk290qpm/wG5u/RSKzwdAC4i51YigihA==
+618 silly tarball trying @hapi/hoek@9.2.0 by hash: sha512-sqKVVVOe5ivCaXDWivIJYVSaEgdQK9ul7a4Kity5Iw7u9+wBAPbX1RMSnLLmp7O4Vzj0WOWwMAJsTL00xwaNug==
+619 silly tarball trying @hapi/topo@5.0.0 by hash: sha512-tFJlT47db0kMqVm3H4nQYgn6Pwg10GTZHb1pwmSiv1K4ks6drQOtfEF5ZnPjkvC+y4/bUPHK+bc87QvLcL+WMw==
+620 silly extract ms@2.1.2 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/ms-d56a4569 (600ms)
+621 silly extract optional-require@1.0.3 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/optional-require-9b777770 (591ms)
+622 silly extract chownr@2.0.0 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/chownr-536f9370 (615ms)
+623 silly extract ee-first@1.1.1 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/ee-first-78d6cf8d (613ms)
+624 silly extract escape-html@1.0.3 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/escape-html-85754439 (613ms)
+625 silly extract lodash.once@4.1.1 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/lodash.once-ec160702 (611ms)
+626 silly extract object-assign@4.1.1 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/object-assign-7464dc19 (609ms)
+627 silly extract once@1.4.0 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/once-81d68529 (608ms)
+628 silly extract process-nextick-args@2.0.1 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/process-nextick-args-d512842f (607ms)
+629 silly extract multer@1.4.2
+630 silly extract express-fileupload@1.2.1
+631 silly extract wide-align@1.1.3 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/wide-align-f4deb0b1 (618ms)
+632 silly extract string_decoder@0.10.31 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/string_decoder-2c98d9cc (629ms)
+633 silly extract console-control-strings@1.1.0 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/console-control-strings-226ff848 (629ms)
+634 silly extract string_decoder@0.10.31 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/string_decoder-dfa54e28 (628ms)
+635 silly extract fs-minipass@2.1.0 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/fs-minipass-8c097d10 (626ms)
+636 silly extract inherits@2.0.3 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/inherits-c9c4d420 (626ms)
+637 silly extract media-typer@0.3.0 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/media-typer-0ec1bffc (624ms)
+638 silly extract finalhandler@1.1.2 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/finalhandler-f3d48556 (621ms)
+639 silly extract streamsearch@0.1.2 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/streamsearch-246a116c (620ms)
+640 silly extract utils-merge@1.0.1 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/utils-merge-e5905994 (618ms)
+641 silly tarball trying multer@1.4.2 by hash: sha512-xY8pX7V+ybyUpbYMxtjM9KAiD9ixtg5/JkeKUTD6xilfDv0vzzOFcCp4Ljb1UU3tSOM3VTZtKo63OmzOrGi3Cg==
+642 silly tarball trying express-fileupload@1.2.1 by hash: sha512-fWPNAkBj+Azt9Itmcz/Reqdg3LeBfaXptDEev2JM8bCC0yDptglCnlizhf0YZauyU5X/g6v7v4Xxqhg8tmEfEA==
+643 silly extract cors@2.8.5
+644 silly extract bcrypt@5.0.1
+645 silly extract isarray@0.0.1 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/isarray-b5aea398 (656ms)
+646 silly extract cookie@0.4.0 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/cookie-7cb54516 (654ms)
+647 silly extract isarray@0.0.1 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/isarray-87820a1d (668ms)
+648 silly extract util-deprecate@1.0.2 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/util-deprecate-25cfd8d2 (659ms)
+649 silly tarball trying cors@2.8.5 by hash: sha512-KIHbLJqu73RGr/hnbrO9uBeixNGuvSQjul/jdFvS/KFSIH1hWVd1ng7zOHx+YrEfInLG7q4n6GHQ9cDtxv/P6g==
+650 silly tarball trying bcrypt@5.0.1 by hash: sha512-9BTgmrhZM2t1bNuDtrtIMVSmmxZBrJ71n8Wg+YgdjHuIWYF7SjjmCPZFB+/5i/o/PIeRpwVJR3P+NrpIItUjqw==
+651 silly extract buffer-equal-constant-time@1.0.1 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/buffer-equal-constant-time-21a964cc (684ms)
+652 silly extract mkdirp@0.5.5 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/mkdirp-143633f0 (677ms)
+653 silly extract @hapi/topo@5.0.0 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/@hapi/topo-cd19e24d (693ms)
+654 silly extract isarray@1.0.0 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/isarray-0f880d87 (688ms)
+655 silly extract passport-strategy@1.0.0 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/passport-strategy-93535f95 (685ms)
+656 silly extract debug@4.3.1 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/debug-154cae65 (705ms)
+657 silly extract statuses@1.5.0 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/statuses-95d9e601 (695ms)
+658 silly extract append-field@1.0.0 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/append-field-ba4f8fae (715ms)
+659 silly extract ecdsa-sig-formatter@1.0.11 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/ecdsa-sig-formatter-73c81022 (712ms)
+660 silly extract nopt@5.0.0 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/nopt-ac1d8276 (708ms)
+661 silly extract agent-base@6.0.2 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/agent-base-ac28c374 (762ms)
+662 silly extract kareem@2.3.2 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/kareem-d16f7c07 (779ms)
+663 silly extract debug@3.1.0 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/debug-d0254850 (778ms)
+664 silly extract debug@2.6.9 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/debug-65ade586 (786ms)
+665 silly extract readable-stream@1.1.14 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/readable-stream-bc71b22e (784ms)
+666 silly extract readable-stream@1.1.14 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/readable-stream-41119380 (784ms)
+667 silly extract node-fetch@2.6.1 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/node-fetch-0f4c7e30 (781ms)
+668 silly extract cors@2.8.5 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/cors-12e03ccf (153ms)
+669 silly extract minimist@1.2.5 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/minimist-8aad188b (796ms)
+670 timing audit submit Completed in 897ms
+671 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/audits/quick 897ms
+672 timing audit body Completed in 14ms
+673 silly extract multer@1.4.2 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/multer-70c2ad32 (216ms)
+674 silly extract @hapi/hoek@9.2.0 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/@hapi/hoek-34570351 (852ms)
+675 silly extract readable-stream@2.3.7 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/readable-stream-dd2403d0 (847ms)
+676 silly extract tar@6.1.0 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/tar-69f38fe7 (885ms)
+677 silly extract mquery@3.2.5 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/mquery-1e41fe2b (892ms)
+678 silly extract sift@13.5.2 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/sift-38e77fa0 (889ms)
+679 silly extract bcrypt@5.0.1 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/bcrypt-21e57487 (276ms)
+680 silly extract busboy@0.3.1 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/busboy-0d4d1423 (971ms)
+681 silly extract busboy@0.2.14 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/busboy-b2e44465 (973ms)
+682 silly extract dicer@0.2.5 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/dicer-bacb2aef (989ms)
+683 silly extract dicer@0.3.0 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/dicer-072b02ee (988ms)
+684 silly extract express-fileupload@1.2.1 extracted to /home/rxtutorial/rxtutorial/server/node_modules/.staging/express-fileupload-cc5a5fd2 (394ms)
+685 timing action:extract Completed in 1030ms
+686 silly doReverseSerial unbuild 436
+687 silly unbuild express-fileupload
+688 info lifecycle undefined~preuninstall: undefined
+689 info lifecycle undefined~uninstall: undefined
+690 verbose unbuild rmStuff undefined 'from' '/home/rxtutorial/rxtutorial/server/node_modules'
+691 info lifecycle undefined~postuninstall: undefined
+692 silly unbuild dicer
+693 info lifecycle undefined~preuninstall: undefined
+694 info lifecycle undefined~uninstall: undefined
+695 verbose unbuild rmStuff undefined 'from' '/home/rxtutorial/rxtutorial/server/node_modules'
+696 verbose unbuild rmStuff in /home/rxtutorial/rxtutorial/server/node_modules/express-fileupload/node_modules
+697 info lifecycle undefined~postuninstall: undefined
+698 timing action:unbuild Completed in 3ms
+699 silly doSerial remove 436
+700 silly remove /home/rxtutorial/rxtutorial/server/node_modules/express-fileupload/node_modules/dicer
+701 silly remove /home/rxtutorial/rxtutorial/server/node_modules/express-fileupload
+702 timing action:remove Completed in 66ms
+703 silly doSerial move 436
+704 silly doSerial finalize 436
+705 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/@hapi/hoek
+706 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/@hapi/topo
+707 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/agent-base/node_modules/ms
+708 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/agent-base/node_modules/debug
+709 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/agent-base
+710 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/append-field
+711 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/buffer-equal-constant-time
+712 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/busboy/node_modules/isarray
+713 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/busboy/node_modules/string_decoder
+714 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/chownr
+715 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/console-control-strings
+716 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/cookie
+717 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/debug
+718 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/dicer/node_modules/isarray
+719 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/dicer/node_modules/string_decoder
+720 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/ecdsa-sig-formatter
+721 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/ee-first
+722 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/escape-html
+723 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/fs-minipass
+724 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/inherits
+725 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/busboy/node_modules/readable-stream
+726 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/dicer/node_modules/readable-stream
+727 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/isarray
+728 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/kareem
+729 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/lodash.once
+730 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/media-typer
+731 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/minimist
+732 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/mquery/node_modules/debug
+733 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/mquery
+734 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/multer/node_modules/mkdirp
+735 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/node-fetch
+736 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/nopt
+737 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/object-assign
+738 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/once
+739 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/optional-require
+740 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/passport-strategy
+741 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/process-nextick-args
+742 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/sift
+743 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/statuses
+744 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/finalhandler
+745 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/streamsearch
+746 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/dicer
+747 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/busboy
+748 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/express-fileupload/node_modules/dicer
+749 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/express-fileupload/node_modules/busboy
+750 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/tar
+751 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/util-deprecate
+752 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/readable-stream
+753 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/utils-merge
+754 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/wide-align
+755 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/bcrypt
+756 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/cors
+757 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/express-fileupload
+758 silly finalize /home/rxtutorial/rxtutorial/server/node_modules/multer
+759 timing action:finalize Completed in 119ms
+760 silly doParallel refresh-package-json 54
+761 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/@hapi/hoek
+762 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/@hapi/topo
+763 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/agent-base/node_modules/ms
+764 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/agent-base/node_modules/debug
+765 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/agent-base
+766 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/append-field
+767 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/buffer-equal-constant-time
+768 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/busboy/node_modules/isarray
+769 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/busboy/node_modules/string_decoder
+770 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/chownr
+771 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/console-control-strings
+772 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/cookie
+773 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/debug
+774 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/dicer/node_modules/isarray
+775 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/dicer/node_modules/string_decoder
+776 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/ecdsa-sig-formatter
+777 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/ee-first
+778 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/escape-html
+779 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/fs-minipass
+780 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/inherits
+781 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/busboy/node_modules/readable-stream
+782 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/dicer/node_modules/readable-stream
+783 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/isarray
+784 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/kareem
+785 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/lodash.once
+786 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/media-typer
+787 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/minimist
+788 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/mquery/node_modules/debug
+789 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/mquery
+790 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/multer/node_modules/mkdirp
+791 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/node-fetch
+792 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/nopt
+793 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/object-assign
+794 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/once
+795 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/optional-require
+796 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/passport-strategy
+797 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/process-nextick-args
+798 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/sift
+799 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/statuses
+800 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/finalhandler
+801 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/streamsearch
+802 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/dicer
+803 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/busboy
+804 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/express-fileupload/node_modules/dicer
+805 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/express-fileupload/node_modules/busboy
+806 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/tar
+807 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/util-deprecate
+808 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/readable-stream
+809 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/utils-merge
+810 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/wide-align
+811 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/multer
+812 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/express-fileupload
+813 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/cors
+814 silly refresh-package-json /home/rxtutorial/rxtutorial/server/node_modules/bcrypt
+815 timing action:refresh-package-json Completed in 364ms
+816 silly doParallel preinstall 54
+817 silly preinstall @hapi/hoek@9.2.0
+818 info lifecycle @hapi/hoek@9.2.0~preinstall: @hapi/hoek@9.2.0
+819 silly preinstall @hapi/topo@5.0.0
+820 info lifecycle @hapi/topo@5.0.0~preinstall: @hapi/topo@5.0.0
+821 silly preinstall ms@2.1.2
+822 info lifecycle ms@2.1.2~preinstall: ms@2.1.2
+823 silly preinstall debug@4.3.1
+824 info lifecycle debug@4.3.1~preinstall: debug@4.3.1
+825 silly preinstall agent-base@6.0.2
+826 info lifecycle agent-base@6.0.2~preinstall: agent-base@6.0.2
+827 silly preinstall append-field@1.0.0
+828 info lifecycle append-field@1.0.0~preinstall: append-field@1.0.0
+829 silly preinstall buffer-equal-constant-time@1.0.1
+830 info lifecycle buffer-equal-constant-time@1.0.1~preinstall: buffer-equal-constant-time@1.0.1
+831 silly preinstall isarray@0.0.1
+832 info lifecycle isarray@0.0.1~preinstall: isarray@0.0.1
+833 silly preinstall string_decoder@0.10.31
+834 info lifecycle string_decoder@0.10.31~preinstall: string_decoder@0.10.31
+835 silly preinstall chownr@2.0.0
+836 info lifecycle chownr@2.0.0~preinstall: chownr@2.0.0
+837 silly preinstall console-control-strings@1.1.0
+838 info lifecycle console-control-strings@1.1.0~preinstall: console-control-strings@1.1.0
+839 silly preinstall cookie@0.4.0
+840 info lifecycle cookie@0.4.0~preinstall: cookie@0.4.0
+841 silly preinstall debug@2.6.9
+842 info lifecycle debug@2.6.9~preinstall: debug@2.6.9
+843 silly preinstall isarray@0.0.1
+844 info lifecycle isarray@0.0.1~preinstall: isarray@0.0.1
+845 silly preinstall string_decoder@0.10.31
+846 info lifecycle string_decoder@0.10.31~preinstall: string_decoder@0.10.31
+847 silly preinstall ecdsa-sig-formatter@1.0.11
+848 info lifecycle ecdsa-sig-formatter@1.0.11~preinstall: ecdsa-sig-formatter@1.0.11
+849 silly preinstall ee-first@1.1.1
+850 info lifecycle ee-first@1.1.1~preinstall: ee-first@1.1.1
+851 silly preinstall escape-html@1.0.3
+852 info lifecycle escape-html@1.0.3~preinstall: escape-html@1.0.3
+853 silly preinstall fs-minipass@2.1.0
+854 info lifecycle fs-minipass@2.1.0~preinstall: fs-minipass@2.1.0
+855 silly preinstall inherits@2.0.3
+856 info lifecycle inherits@2.0.3~preinstall: inherits@2.0.3
+857 silly preinstall readable-stream@1.1.14
+858 info lifecycle readable-stream@1.1.14~preinstall: readable-stream@1.1.14
+859 silly preinstall readable-stream@1.1.14
+860 info lifecycle readable-stream@1.1.14~preinstall: readable-stream@1.1.14
+861 silly preinstall isarray@1.0.0
+862 info lifecycle isarray@1.0.0~preinstall: isarray@1.0.0
+863 silly preinstall kareem@2.3.2
+864 info lifecycle kareem@2.3.2~preinstall: kareem@2.3.2
+865 silly preinstall lodash.once@4.1.1
+866 info lifecycle lodash.once@4.1.1~preinstall: lodash.once@4.1.1
+867 silly preinstall media-typer@0.3.0
+868 info lifecycle media-typer@0.3.0~preinstall: media-typer@0.3.0
+869 silly preinstall minimist@1.2.5
+870 info lifecycle minimist@1.2.5~preinstall: minimist@1.2.5
+871 silly preinstall debug@3.1.0
+872 info lifecycle debug@3.1.0~preinstall: debug@3.1.0
+873 silly preinstall mquery@3.2.5
+874 info lifecycle mquery@3.2.5~preinstall: mquery@3.2.5
+875 silly preinstall mkdirp@0.5.5
+876 info lifecycle mkdirp@0.5.5~preinstall: mkdirp@0.5.5
+877 silly preinstall node-fetch@2.6.1
+878 info lifecycle node-fetch@2.6.1~preinstall: node-fetch@2.6.1
+879 silly preinstall nopt@5.0.0
+880 info lifecycle nopt@5.0.0~preinstall: nopt@5.0.0
+881 silly preinstall object-assign@4.1.1
+882 info lifecycle object-assign@4.1.1~preinstall: object-assign@4.1.1
+883 silly preinstall once@1.4.0
+884 info lifecycle once@1.4.0~preinstall: once@1.4.0
+885 silly preinstall optional-require@1.0.3
+886 info lifecycle optional-require@1.0.3~preinstall: optional-require@1.0.3
+887 silly preinstall passport-strategy@1.0.0
+888 info lifecycle passport-strategy@1.0.0~preinstall: passport-strategy@1.0.0
+889 silly preinstall process-nextick-args@2.0.1
+890 info lifecycle process-nextick-args@2.0.1~preinstall: process-nextick-args@2.0.1
+891 silly preinstall sift@13.5.2
+892 info lifecycle sift@13.5.2~preinstall: sift@13.5.2
+893 silly preinstall statuses@1.5.0
+894 info lifecycle statuses@1.5.0~preinstall: statuses@1.5.0
+895 silly preinstall finalhandler@1.1.2
+896 info lifecycle finalhandler@1.1.2~preinstall: finalhandler@1.1.2
+897 silly preinstall streamsearch@0.1.2
+898 info lifecycle streamsearch@0.1.2~preinstall: streamsearch@0.1.2
+899 silly preinstall dicer@0.2.5
+900 info lifecycle dicer@0.2.5~preinstall: dicer@0.2.5
+901 silly preinstall busboy@0.2.14
+902 info lifecycle busboy@0.2.14~preinstall: busboy@0.2.14
+903 silly preinstall dicer@0.3.0
+904 info lifecycle dicer@0.3.0~preinstall: dicer@0.3.0
+905 silly preinstall busboy@0.3.1
+906 info lifecycle busboy@0.3.1~preinstall: busboy@0.3.1
+907 silly preinstall tar@6.1.0
+908 info lifecycle tar@6.1.0~preinstall: tar@6.1.0
+909 silly preinstall util-deprecate@1.0.2
+910 info lifecycle util-deprecate@1.0.2~preinstall: util-deprecate@1.0.2
+911 silly preinstall readable-stream@2.3.7
+912 info lifecycle readable-stream@2.3.7~preinstall: readable-stream@2.3.7
+913 silly preinstall utils-merge@1.0.1
+914 info lifecycle utils-merge@1.0.1~preinstall: utils-merge@1.0.1
+915 silly preinstall wide-align@1.1.3
+916 info lifecycle wide-align@1.1.3~preinstall: wide-align@1.1.3
+917 silly preinstall multer@1.4.2
+918 info lifecycle multer@1.4.2~preinstall: multer@1.4.2
+919 silly preinstall express-fileupload@1.2.1
+920 info lifecycle express-fileupload@1.2.1~preinstall: express-fileupload@1.2.1
+921 silly preinstall cors@2.8.5
+922 info lifecycle cors@2.8.5~preinstall: cors@2.8.5
+923 silly preinstall bcrypt@5.0.1
+924 info lifecycle bcrypt@5.0.1~preinstall: bcrypt@5.0.1
+925 timing action:preinstall Completed in 6ms
+926 silly doSerial build 436
+927 silly build @hapi/hoek@9.2.0
+928 info linkStuff @hapi/hoek@9.2.0
+929 silly linkStuff @hapi/hoek@9.2.0 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+930 silly build @hapi/topo@5.0.0
+931 info linkStuff @hapi/topo@5.0.0
+932 silly linkStuff @hapi/topo@5.0.0 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+933 silly build ms@2.1.2
+934 info linkStuff ms@2.1.2
+935 silly linkStuff ms@2.1.2 has /home/rxtutorial/rxtutorial/server/node_modules/agent-base/node_modules as its parent node_modules
+936 silly build debug@4.3.1
+937 info linkStuff debug@4.3.1
+938 silly linkStuff debug@4.3.1 has /home/rxtutorial/rxtutorial/server/node_modules/agent-base/node_modules as its parent node_modules
+939 silly build agent-base@6.0.2
+940 info linkStuff agent-base@6.0.2
+941 silly linkStuff agent-base@6.0.2 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+942 silly build append-field@1.0.0
+943 info linkStuff append-field@1.0.0
+944 silly linkStuff append-field@1.0.0 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+945 silly build buffer-equal-constant-time@1.0.1
+946 info linkStuff buffer-equal-constant-time@1.0.1
+947 silly linkStuff buffer-equal-constant-time@1.0.1 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+948 silly build isarray@0.0.1
+949 info linkStuff isarray@0.0.1
+950 silly linkStuff isarray@0.0.1 has /home/rxtutorial/rxtutorial/server/node_modules/busboy/node_modules as its parent node_modules
+951 silly build string_decoder@0.10.31
+952 info linkStuff string_decoder@0.10.31
+953 silly linkStuff string_decoder@0.10.31 has /home/rxtutorial/rxtutorial/server/node_modules/busboy/node_modules as its parent node_modules
+954 silly build chownr@2.0.0
+955 info linkStuff chownr@2.0.0
+956 silly linkStuff chownr@2.0.0 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+957 silly build console-control-strings@1.1.0
+958 info linkStuff console-control-strings@1.1.0
+959 silly linkStuff console-control-strings@1.1.0 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+960 silly build cookie@0.4.0
+961 info linkStuff cookie@0.4.0
+962 silly linkStuff cookie@0.4.0 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+963 silly build debug@2.6.9
+964 info linkStuff debug@2.6.9
+965 silly linkStuff debug@2.6.9 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+966 silly build isarray@0.0.1
+967 info linkStuff isarray@0.0.1
+968 silly linkStuff isarray@0.0.1 has /home/rxtutorial/rxtutorial/server/node_modules/dicer/node_modules as its parent node_modules
+969 silly build string_decoder@0.10.31
+970 info linkStuff string_decoder@0.10.31
+971 silly linkStuff string_decoder@0.10.31 has /home/rxtutorial/rxtutorial/server/node_modules/dicer/node_modules as its parent node_modules
+972 silly build ecdsa-sig-formatter@1.0.11
+973 info linkStuff ecdsa-sig-formatter@1.0.11
+974 silly linkStuff ecdsa-sig-formatter@1.0.11 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+975 silly build ee-first@1.1.1
+976 info linkStuff ee-first@1.1.1
+977 silly linkStuff ee-first@1.1.1 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+978 silly build escape-html@1.0.3
+979 info linkStuff escape-html@1.0.3
+980 silly linkStuff escape-html@1.0.3 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+981 silly build fs-minipass@2.1.0
+982 info linkStuff fs-minipass@2.1.0
+983 silly linkStuff fs-minipass@2.1.0 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+984 silly build inherits@2.0.3
+985 info linkStuff inherits@2.0.3
+986 silly linkStuff inherits@2.0.3 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+987 silly build readable-stream@1.1.14
+988 info linkStuff readable-stream@1.1.14
+989 silly linkStuff readable-stream@1.1.14 has /home/rxtutorial/rxtutorial/server/node_modules/busboy/node_modules as its parent node_modules
+990 silly build readable-stream@1.1.14
+991 info linkStuff readable-stream@1.1.14
+992 silly linkStuff readable-stream@1.1.14 has /home/rxtutorial/rxtutorial/server/node_modules/dicer/node_modules as its parent node_modules
+993 silly build isarray@1.0.0
+994 info linkStuff isarray@1.0.0
+995 silly linkStuff isarray@1.0.0 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+996 silly build kareem@2.3.2
+997 info linkStuff kareem@2.3.2
+998 silly linkStuff kareem@2.3.2 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+999 silly build lodash.once@4.1.1
+1000 info linkStuff lodash.once@4.1.1
+1001 silly linkStuff lodash.once@4.1.1 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+1002 silly build media-typer@0.3.0
+1003 info linkStuff media-typer@0.3.0
+1004 silly linkStuff media-typer@0.3.0 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+1005 silly build minimist@1.2.5
+1006 info linkStuff minimist@1.2.5
+1007 silly linkStuff minimist@1.2.5 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+1008 silly build debug@3.1.0
+1009 info linkStuff debug@3.1.0
+1010 silly linkStuff debug@3.1.0 has /home/rxtutorial/rxtutorial/server/node_modules/mquery/node_modules as its parent node_modules
+1011 silly build mquery@3.2.5
+1012 info linkStuff mquery@3.2.5
+1013 silly linkStuff mquery@3.2.5 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+1014 silly build mkdirp@0.5.5
+1015 info linkStuff mkdirp@0.5.5
+1016 silly linkStuff mkdirp@0.5.5 has /home/rxtutorial/rxtutorial/server/node_modules/multer/node_modules as its parent node_modules
+1017 verbose linkBins [ { mkdirp: 'bin/cmd.js' },
+1017 verbose linkBins   '/home/rxtutorial/rxtutorial/server/node_modules/multer/node_modules/.bin',
+1017 verbose linkBins   false ]
+1018 silly gently link link does not already exist { link:
+1018 silly gently link    '/home/rxtutorial/rxtutorial/server/node_modules/multer/node_modules/.bin/mkdirp',
+1018 silly gently link   target:
+1018 silly gently link    '/home/rxtutorial/rxtutorial/server/node_modules/multer/node_modules/mkdirp/bin/cmd.js' }
+1019 silly build node-fetch@2.6.1
+1020 info linkStuff node-fetch@2.6.1
+1021 silly linkStuff node-fetch@2.6.1 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+1022 silly build nopt@5.0.0
+1023 info linkStuff nopt@5.0.0
+1024 silly linkStuff nopt@5.0.0 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+1025 verbose linkBins [ { nopt: 'bin/nopt.js' },
+1025 verbose linkBins   '/home/rxtutorial/rxtutorial/server/node_modules/.bin',
+1025 verbose linkBins   false ]
+1026 silly gently link link does not already exist { link: '/home/rxtutorial/rxtutorial/server/node_modules/.bin/nopt',
+1026 silly gently link   target:
+1026 silly gently link    '/home/rxtutorial/rxtutorial/server/node_modules/nopt/bin/nopt.js' }
+1027 silly build object-assign@4.1.1
+1028 info linkStuff object-assign@4.1.1
+1029 silly linkStuff object-assign@4.1.1 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+1030 silly build once@1.4.0
+1031 info linkStuff once@1.4.0
+1032 silly linkStuff once@1.4.0 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+1033 silly build optional-require@1.0.3
+1034 info linkStuff optional-require@1.0.3
+1035 silly linkStuff optional-require@1.0.3 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+1036 silly build passport-strategy@1.0.0
+1037 info linkStuff passport-strategy@1.0.0
+1038 silly linkStuff passport-strategy@1.0.0 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+1039 silly build process-nextick-args@2.0.1
+1040 info linkStuff process-nextick-args@2.0.1
+1041 silly linkStuff process-nextick-args@2.0.1 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+1042 silly build sift@13.5.2
+1043 info linkStuff sift@13.5.2
+1044 silly linkStuff sift@13.5.2 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+1045 silly build statuses@1.5.0
+1046 info linkStuff statuses@1.5.0
+1047 silly linkStuff statuses@1.5.0 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+1048 silly build finalhandler@1.1.2
+1049 info linkStuff finalhandler@1.1.2
+1050 silly linkStuff finalhandler@1.1.2 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+1051 silly build streamsearch@0.1.2
+1052 info linkStuff streamsearch@0.1.2
+1053 silly linkStuff streamsearch@0.1.2 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+1054 silly build dicer@0.2.5
+1055 info linkStuff dicer@0.2.5
+1056 silly linkStuff dicer@0.2.5 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+1057 silly build busboy@0.2.14
+1058 info linkStuff busboy@0.2.14
+1059 silly linkStuff busboy@0.2.14 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+1060 silly build dicer@0.3.0
+1061 info linkStuff dicer@0.3.0
+1062 silly linkStuff dicer@0.3.0 has /home/rxtutorial/rxtutorial/server/node_modules/express-fileupload/node_modules as its parent node_modules
+1063 silly build busboy@0.3.1
+1064 info linkStuff busboy@0.3.1
+1065 silly linkStuff busboy@0.3.1 has /home/rxtutorial/rxtutorial/server/node_modules/express-fileupload/node_modules as its parent node_modules
+1066 silly build tar@6.1.0
+1067 info linkStuff tar@6.1.0
+1068 silly linkStuff tar@6.1.0 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+1069 silly build util-deprecate@1.0.2
+1070 info linkStuff util-deprecate@1.0.2
+1071 silly linkStuff util-deprecate@1.0.2 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+1072 silly build readable-stream@2.3.7
+1073 info linkStuff readable-stream@2.3.7
+1074 silly linkStuff readable-stream@2.3.7 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+1075 silly build utils-merge@1.0.1
+1076 info linkStuff utils-merge@1.0.1
+1077 silly linkStuff utils-merge@1.0.1 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+1078 silly build wide-align@1.1.3
+1079 info linkStuff wide-align@1.1.3
+1080 silly linkStuff wide-align@1.1.3 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+1081 silly build bcrypt@5.0.1
+1082 info linkStuff bcrypt@5.0.1
+1083 silly linkStuff bcrypt@5.0.1 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+1084 silly build cors@2.8.5
+1085 info linkStuff cors@2.8.5
+1086 silly linkStuff cors@2.8.5 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+1087 silly build express-fileupload@1.2.1
+1088 info linkStuff express-fileupload@1.2.1
+1089 silly linkStuff express-fileupload@1.2.1 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+1090 silly build multer@1.4.2
+1091 info linkStuff multer@1.4.2
+1092 silly linkStuff multer@1.4.2 has /home/rxtutorial/rxtutorial/server/node_modules as its parent node_modules
+1093 timing action:build Completed in 25ms
+1094 silly doSerial global-link 436
+1095 silly doParallel update-linked 0
+1096 silly doSerial install 436
+1097 silly install @hapi/hoek@9.2.0
+1098 info lifecycle @hapi/hoek@9.2.0~install: @hapi/hoek@9.2.0
+1099 silly install @hapi/topo@5.0.0
+1100 info lifecycle @hapi/topo@5.0.0~install: @hapi/topo@5.0.0
+1101 silly install ms@2.1.2
+1102 info lifecycle ms@2.1.2~install: ms@2.1.2
+1103 silly install debug@4.3.1
+1104 info lifecycle debug@4.3.1~install: debug@4.3.1
+1105 silly install agent-base@6.0.2
+1106 info lifecycle agent-base@6.0.2~install: agent-base@6.0.2
+1107 silly install append-field@1.0.0
+1108 info lifecycle append-field@1.0.0~install: append-field@1.0.0
+1109 silly install buffer-equal-constant-time@1.0.1
+1110 info lifecycle buffer-equal-constant-time@1.0.1~install: buffer-equal-constant-time@1.0.1
+1111 silly install isarray@0.0.1
+1112 info lifecycle isarray@0.0.1~install: isarray@0.0.1
+1113 silly install string_decoder@0.10.31
+1114 info lifecycle string_decoder@0.10.31~install: string_decoder@0.10.31
+1115 silly install chownr@2.0.0
+1116 info lifecycle chownr@2.0.0~install: chownr@2.0.0
+1117 silly install console-control-strings@1.1.0
+1118 info lifecycle console-control-strings@1.1.0~install: console-control-strings@1.1.0
+1119 silly install cookie@0.4.0
+1120 info lifecycle cookie@0.4.0~install: cookie@0.4.0
+1121 silly install debug@2.6.9
+1122 info lifecycle debug@2.6.9~install: debug@2.6.9
+1123 silly install isarray@0.0.1
+1124 info lifecycle isarray@0.0.1~install: isarray@0.0.1
+1125 silly install string_decoder@0.10.31
+1126 info lifecycle string_decoder@0.10.31~install: string_decoder@0.10.31
+1127 silly install ecdsa-sig-formatter@1.0.11
+1128 info lifecycle ecdsa-sig-formatter@1.0.11~install: ecdsa-sig-formatter@1.0.11
+1129 silly install ee-first@1.1.1
+1130 info lifecycle ee-first@1.1.1~install: ee-first@1.1.1
+1131 silly install escape-html@1.0.3
+1132 info lifecycle escape-html@1.0.3~install: escape-html@1.0.3
+1133 silly install fs-minipass@2.1.0
+1134 info lifecycle fs-minipass@2.1.0~install: fs-minipass@2.1.0
+1135 silly install inherits@2.0.3
+1136 info lifecycle inherits@2.0.3~install: inherits@2.0.3
+1137 silly install readable-stream@1.1.14
+1138 info lifecycle readable-stream@1.1.14~install: readable-stream@1.1.14
+1139 silly install readable-stream@1.1.14
+1140 info lifecycle readable-stream@1.1.14~install: readable-stream@1.1.14
+1141 silly install isarray@1.0.0
+1142 info lifecycle isarray@1.0.0~install: isarray@1.0.0
+1143 silly install kareem@2.3.2
+1144 info lifecycle kareem@2.3.2~install: kareem@2.3.2
+1145 silly install lodash.once@4.1.1
+1146 info lifecycle lodash.once@4.1.1~install: lodash.once@4.1.1
+1147 silly install media-typer@0.3.0
+1148 info lifecycle media-typer@0.3.0~install: media-typer@0.3.0
+1149 silly install minimist@1.2.5
+1150 info lifecycle minimist@1.2.5~install: minimist@1.2.5
+1151 silly install debug@3.1.0
+1152 info lifecycle debug@3.1.0~install: debug@3.1.0
+1153 silly install mquery@3.2.5
+1154 info lifecycle mquery@3.2.5~install: mquery@3.2.5
+1155 silly install mkdirp@0.5.5
+1156 info lifecycle mkdirp@0.5.5~install: mkdirp@0.5.5
+1157 silly install node-fetch@2.6.1
+1158 info lifecycle node-fetch@2.6.1~install: node-fetch@2.6.1
+1159 silly install nopt@5.0.0
+1160 info lifecycle nopt@5.0.0~install: nopt@5.0.0
+1161 silly install object-assign@4.1.1
+1162 info lifecycle object-assign@4.1.1~install: object-assign@4.1.1
+1163 silly install once@1.4.0
+1164 info lifecycle once@1.4.0~install: once@1.4.0
+1165 silly install optional-require@1.0.3
+1166 info lifecycle optional-require@1.0.3~install: optional-require@1.0.3
+1167 silly install passport-strategy@1.0.0
+1168 info lifecycle passport-strategy@1.0.0~install: passport-strategy@1.0.0
+1169 silly install process-nextick-args@2.0.1
+1170 info lifecycle process-nextick-args@2.0.1~install: process-nextick-args@2.0.1
+1171 silly install sift@13.5.2
+1172 info lifecycle sift@13.5.2~install: sift@13.5.2
+1173 silly install statuses@1.5.0
+1174 info lifecycle statuses@1.5.0~install: statuses@1.5.0
+1175 silly install finalhandler@1.1.2
+1176 info lifecycle finalhandler@1.1.2~install: finalhandler@1.1.2
+1177 silly install streamsearch@0.1.2
+1178 info lifecycle streamsearch@0.1.2~install: streamsearch@0.1.2
+1179 silly install dicer@0.2.5
+1180 info lifecycle dicer@0.2.5~install: dicer@0.2.5
+1181 silly install busboy@0.2.14
+1182 info lifecycle busboy@0.2.14~install: busboy@0.2.14
+1183 silly install dicer@0.3.0
+1184 info lifecycle dicer@0.3.0~install: dicer@0.3.0
+1185 silly install busboy@0.3.1
+1186 info lifecycle busboy@0.3.1~install: busboy@0.3.1
+1187 silly install tar@6.1.0
+1188 info lifecycle tar@6.1.0~install: tar@6.1.0
+1189 silly install util-deprecate@1.0.2
+1190 info lifecycle util-deprecate@1.0.2~install: util-deprecate@1.0.2
+1191 silly install readable-stream@2.3.7
+1192 info lifecycle readable-stream@2.3.7~install: readable-stream@2.3.7
+1193 silly install utils-merge@1.0.1
+1194 info lifecycle utils-merge@1.0.1~install: utils-merge@1.0.1
+1195 silly install wide-align@1.1.3
+1196 info lifecycle wide-align@1.1.3~install: wide-align@1.1.3
+1197 silly install bcrypt@5.0.1
+1198 info lifecycle bcrypt@5.0.1~install: bcrypt@5.0.1
+1199 verbose lifecycle bcrypt@5.0.1~install: unsafe-perm in lifecycle true
+1200 verbose lifecycle bcrypt@5.0.1~install: PATH: /usr/share/npm/node_modules/npm-lifecycle/node-gyp-bin:/home/rxtutorial/rxtutorial/server/node_modules/bcrypt/node_modules/.bin:/home/rxtutorial/rxtutorial/server/node_modules/.bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+1201 verbose lifecycle bcrypt@5.0.1~install: CWD: /home/rxtutorial/rxtutorial/server/node_modules/bcrypt
+1202 silly lifecycle bcrypt@5.0.1~install: Args: [ '-c', 'node-pre-gyp install --fallback-to-build' ]
+1203 info lifecycle bcrypt@5.0.1~install: Failed to exec install script
+1204 timing action:install Completed in 31ms
+1205 verbose unlock done using /home/rxtutorial/.npm/_locks/staging-3a1b3eefdd2451d8.lock for /home/rxtutorial/rxtutorial/server/node_modules/.staging
+1206 timing stage:rollbackFailedOptional Completed in 51ms
+1207 timing stage:runTopLevelLifecycles Completed in 3607ms
+1208 silly saveTree nirbhaydubeywebapi@1.0.0
+1208 silly saveTree +-- bcrypt@5.0.1
+1208 silly saveTree | +-- @mapbox/node-pre-gyp@1.0.4
+1208 silly saveTree | | +-- detect-libc@1.0.3
+1208 silly saveTree | | +-- https-proxy-agent@5.0.0
+1208 silly saveTree | | | +-- agent-base@6.0.2
+1208 silly saveTree | | | | `-- debug@4.3.1
+1208 silly saveTree | | | |   `-- ms@2.1.2
+1208 silly saveTree | | | `-- debug@4.3.1
+1208 silly saveTree | | |   `-- ms@2.1.2
+1208 silly saveTree | | +-- make-dir@3.1.0
+1208 silly saveTree | | | `-- semver@6.3.0
+1208 silly saveTree | | +-- node-fetch@2.6.1
+1208 silly saveTree | | +-- nopt@5.0.0
+1208 silly saveTree | | | `-- abbrev@1.1.1
+1208 silly saveTree | | +-- npmlog@4.1.2
+1208 silly saveTree | | | +-- are-we-there-yet@1.1.5
+1208 silly saveTree | | | | +-- delegates@1.0.0
+1208 silly saveTree | | | | `-- readable-stream@2.3.7
+1208 silly saveTree | | | |   +-- core-util-is@1.0.2
+1208 silly saveTree | | | |   +-- inherits@2.0.3
+1208 silly saveTree | | | |   +-- isarray@1.0.0
+1208 silly saveTree | | | |   +-- process-nextick-args@2.0.1
+1208 silly saveTree | | | |   +-- safe-buffer@5.1.2
+1208 silly saveTree | | | |   +-- string_decoder@1.1.1
+1208 silly saveTree | | | |   `-- util-deprecate@1.0.2
+1208 silly saveTree | | | +-- console-control-strings@1.1.0
+1208 silly saveTree | | | +-- gauge@2.7.4
+1208 silly saveTree | | | | +-- aproba@1.2.0
+1208 silly saveTree | | | | +-- has-unicode@2.0.1
+1208 silly saveTree | | | | +-- object-assign@4.1.1
+1208 silly saveTree | | | | +-- signal-exit@3.0.3
+1208 silly saveTree | | | | +-- string-width@1.0.2
+1208 silly saveTree | | | | | +-- code-point-at@1.1.0
+1208 silly saveTree | | | | | +-- is-fullwidth-code-point@1.0.0
+1208 silly saveTree | | | | | | `-- number-is-nan@1.0.1
+1208 silly saveTree | | | | | `-- strip-ansi@3.0.1
+1208 silly saveTree | | | | |   `-- ansi-regex@2.1.1
+1208 silly saveTree | | | | +-- strip-ansi@3.0.1
+1208 silly saveTree | | | | `-- wide-align@1.1.3
+1208 silly saveTree | | | `-- set-blocking@2.0.0
+1208 silly saveTree | | +-- rimraf@3.0.2
+1208 silly saveTree | | | `-- glob@7.1.6
+1208 silly saveTree | | |   +-- fs.realpath@1.0.0
+1208 silly saveTree | | |   +-- inflight@1.0.6
+1208 silly saveTree | | |   | +-- once@1.4.0
+1208 silly saveTree | | |   | | `-- wrappy@1.0.2
+1208 silly saveTree | | |   | `-- wrappy@1.0.2
+1208 silly saveTree | | |   +-- minimatch@3.0.4
+1208 silly saveTree | | |   | `-- brace-expansion@1.1.11
+1208 silly saveTree | | |   |   +-- balanced-match@1.0.2
+1208 silly saveTree | | |   |   `-- concat-map@0.0.1
+1208 silly saveTree | | |   +-- once@1.4.0
+1208 silly saveTree | | |   `-- path-is-absolute@1.0.1
+1208 silly saveTree | | +-- semver@7.3.5
+1208 silly saveTree | | | `-- lru-cache@6.0.0
+1208 silly saveTree | | |   `-- yallist@4.0.0
+1208 silly saveTree | | `-- tar@6.1.0
+1208 silly saveTree | |   +-- chownr@2.0.0
+1208 silly saveTree | |   +-- fs-minipass@2.1.0
+1208 silly saveTree | |   | `-- minipass@3.1.3
+1208 silly saveTree | |   +-- minipass@3.1.3
+1208 silly saveTree | |   +-- minizlib@2.1.2
+1208 silly saveTree | |   `-- mkdirp@1.0.4
+1208 silly saveTree | `-- node-addon-api@3.1.0
+1208 silly saveTree +-- cloudinary@1.26.1
+1208 silly saveTree | +-- cloudinary-core@2.11.4
+1208 silly saveTree | +-- core-js@3.6.5
+1208 silly saveTree | +-- lodash@4.17.21
+1208 silly saveTree | `-- q@1.5.1
+1208 silly saveTree +-- cors@2.8.5
+1208 silly saveTree | `-- vary@1.1.2
+1208 silly saveTree +-- express-fileupload@1.2.1
+1208 silly saveTree | `-- busboy@0.3.1
+1208 silly saveTree |   `-- dicer@0.3.0
+1208 silly saveTree |     `-- streamsearch@0.1.2
+1208 silly saveTree +-- express@4.17.1
+1208 silly saveTree | +-- accepts@1.3.7
+1208 silly saveTree | | +-- mime-types@2.1.30
+1208 silly saveTree | | | `-- mime-db@1.47.0
+1208 silly saveTree | | `-- negotiator@0.6.2
+1208 silly saveTree | +-- array-flatten@1.1.1
+1208 silly saveTree | +-- body-parser@1.19.0
+1208 silly saveTree | | +-- bytes@3.1.0
+1208 silly saveTree | | +-- content-type@1.0.4
+1208 silly saveTree | | +-- debug@2.6.9
+1208 silly saveTree | | | `-- ms@2.0.0
+1208 silly saveTree | | +-- depd@1.1.2
+1208 silly saveTree | | +-- http-errors@1.7.2
+1208 silly saveTree | | | +-- setprototypeof@1.1.1
+1208 silly saveTree | | | +-- statuses@1.5.0
+1208 silly saveTree | | | `-- toidentifier@1.0.0
+1208 silly saveTree | | +-- iconv-lite@0.4.24
+1208 silly saveTree | | | `-- safer-buffer@2.1.2
+1208 silly saveTree | | +-- on-finished@2.3.0
+1208 silly saveTree | | | `-- ee-first@1.1.1
+1208 silly saveTree | | +-- qs@6.7.0
+1208 silly saveTree | | +-- raw-body@2.4.0
+1208 silly saveTree | | | `-- unpipe@1.0.0
+1208 silly saveTree | | `-- type-is@1.6.18
+1208 silly saveTree | |   `-- media-typer@0.3.0
+1208 silly saveTree | +-- content-disposition@0.5.3
+1208 silly saveTree | +-- content-type@1.0.4
+1208 silly saveTree | +-- cookie-signature@1.0.6
+1208 silly saveTree | +-- cookie@0.4.0
+1208 silly saveTree | +-- debug@2.6.9
+1208 silly saveTree | +-- depd@1.1.2
+1208 silly saveTree | +-- encodeurl@1.0.2
+1208 silly saveTree | +-- escape-html@1.0.3
+1208 silly saveTree | +-- etag@1.8.1
+1208 silly saveTree | +-- finalhandler@1.1.2
+1208 silly saveTree | | `-- parseurl@1.3.3
+1208 silly saveTree | +-- fresh@0.5.2
+1208 silly saveTree | +-- merge-descriptors@1.0.1
+1208 silly saveTree | +-- methods@1.1.2
+1208 silly saveTree | +-- on-finished@2.3.0
+1208 silly saveTree | +-- parseurl@1.3.3
+1208 silly saveTree | +-- path-to-regexp@0.1.7
+1208 silly saveTree | +-- proxy-addr@2.0.6
+1208 silly saveTree | | +-- forwarded@0.1.2
+1208 silly saveTree | | `-- ipaddr.js@1.9.1
+1208 silly saveTree | +-- qs@6.7.0
+1208 silly saveTree | +-- range-parser@1.2.1
+1208 silly saveTree | +-- send@0.17.1
+1208 silly saveTree | | +-- destroy@1.0.4
+1208 silly saveTree | | +-- mime@1.6.0
+1208 silly saveTree | | `-- ms@2.1.1
+1208 silly saveTree | +-- serve-static@1.14.1
+1208 silly saveTree | +-- setprototypeof@1.1.1
+1208 silly saveTree | +-- statuses@1.5.0
+1208 silly saveTree | +-- type-is@1.6.18
+1208 silly saveTree | `-- utils-merge@1.0.1
+1208 silly saveTree +-- joi@17.4.0
+1208 silly saveTree | +-- @hapi/hoek@9.2.0
+1208 silly saveTree | +-- @hapi/topo@5.0.0
+1208 silly saveTree | +-- @sideway/address@4.1.1
+1208 silly saveTree | +-- @sideway/formula@3.0.0
+1208 silly saveTree | `-- @sideway/pinpoint@2.0.0
+1208 silly saveTree +-- jsonwebtoken@8.5.1
+1208 silly saveTree | +-- jws@3.2.2
+1208 silly saveTree | | `-- jwa@1.4.1
+1208 silly saveTree | |   +-- buffer-equal-constant-time@1.0.1
+1208 silly saveTree | |   `-- ecdsa-sig-formatter@1.0.11
+1208 silly saveTree | +-- lodash.includes@4.3.0
+1208 silly saveTree | +-- lodash.isboolean@3.0.3
+1208 silly saveTree | +-- lodash.isinteger@4.0.4
+1208 silly saveTree | +-- lodash.isnumber@3.0.3
+1208 silly saveTree | +-- lodash.isplainobject@4.0.6
+1208 silly saveTree | +-- lodash.isstring@4.0.1
+1208 silly saveTree | +-- lodash.once@4.1.1
+1208 silly saveTree | +-- ms@2.1.3
+1208 silly saveTree | `-- semver@5.7.1
+1208 silly saveTree +-- mongoose@5.12.6
+1208 silly saveTree | +-- @types/mongodb@3.6.12
+1208 silly saveTree | | +-- @types/bson@4.0.3
+1208 silly saveTree | | | `-- @types/node@15.0.1
+1208 silly saveTree | | `-- @types/node@15.0.1
+1208 silly saveTree | +-- bson@1.1.6
+1208 silly saveTree | +-- kareem@2.3.2
+1208 silly saveTree | +-- mongodb@3.6.6
+1208 silly saveTree | | +-- bl@2.2.1
+1208 silly saveTree | | +-- denque@1.5.0
+1208 silly saveTree | | +-- optional-require@1.0.3
+1208 silly saveTree | | `-- saslprep@1.0.3
+1208 silly saveTree | |   `-- sparse-bitfield@3.0.3
+1208 silly saveTree | |     `-- memory-pager@1.5.0
+1208 silly saveTree | +-- mongoose-legacy-pluralize@1.0.2
+1208 silly saveTree | +-- mpath@0.8.3
+1208 silly saveTree | +-- mquery@3.2.5
+1208 silly saveTree | | +-- bluebird@3.5.1
+1208 silly saveTree | | +-- debug@3.1.0
+1208 silly saveTree | | +-- regexp-clone@1.0.0
+1208 silly saveTree | | `-- sliced@1.0.1
+1208 silly saveTree | +-- ms@2.1.2
+1208 silly saveTree | +-- regexp-clone@1.0.0
+1208 silly saveTree | +-- safe-buffer@5.2.1
+1208 silly saveTree | +-- sift@13.5.2
+1208 silly saveTree | `-- sliced@1.0.1
+1208 silly saveTree +-- multer@1.4.2
+1208 silly saveTree | +-- append-field@1.0.0
+1208 silly saveTree | +-- busboy@0.2.14
+1208 silly saveTree | | +-- dicer@0.2.5
+1208 silly saveTree | | | `-- readable-stream@1.1.14
+1208 silly saveTree | | |   +-- isarray@0.0.1
+1208 silly saveTree | | |   `-- string_decoder@0.10.31
+1208 silly saveTree | | `-- readable-stream@1.1.14
+1208 silly saveTree | |   +-- isarray@0.0.1
+1208 silly saveTree | |   `-- string_decoder@0.10.31
+1208 silly saveTree | +-- concat-stream@1.6.2
+1208 silly saveTree | | +-- buffer-from@1.1.1
+1208 silly saveTree | | `-- typedarray@0.0.6
+1208 silly saveTree | +-- mkdirp@0.5.5
+1208 silly saveTree | | `-- minimist@1.2.5
+1208 silly saveTree | `-- xtend@4.0.2
+1208 silly saveTree +-- nodemailer@6.6.3
+1208 silly saveTree +-- passport-jwt@4.0.0
+1208 silly saveTree | `-- passport-strategy@1.0.0
+1208 silly saveTree `-- passport@0.4.1
+1208 silly saveTree   `-- pause@0.0.1
+1209 warn nirbhaydubeywebapi@1.0.0 No description
+1210 warn nirbhaydubeywebapi@1.0.0 No repository field.
+1211 verbose stack Error: bcrypt@5.0.1 install: `node-pre-gyp install --fallback-to-build`
+1211 verbose stack spawn ENOENT
+1211 verbose stack     at ChildProcess.<anonymous> (/usr/share/npm/node_modules/npm-lifecycle/lib/spawn.js:48:18)
+1211 verbose stack     at ChildProcess.emit (events.js:198:13)
+1211 verbose stack     at maybeClose (internal/child_process.js:982:16)
+1211 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:259:5)
+1212 verbose pkgid bcrypt@5.0.1
+1213 verbose cwd /home/rxtutorial/rxtutorial/server
+1214 verbose Linux 5.4.106-1-pve
+1215 verbose argv "/usr/bin/node" "/usr/bin/npm" "install"
+1216 verbose node v10.19.0
+1217 verbose npm  v6.14.4
+1218 error code ELIFECYCLE
+1219 error syscall spawn
+1220 error file sh
+1221 error errno ENOENT
+1222 error bcrypt@5.0.1 install: `node-pre-gyp install --fallback-to-build`
+1222 error spawn ENOENT
+1223 error Failed at the bcrypt@5.0.1 install script.
+1223 error This is probably not a problem with npm. There is likely additional logging output above.
+1224 verbose exit [ 1, true ]

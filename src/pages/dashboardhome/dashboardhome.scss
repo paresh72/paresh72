@@ -1,0 +1,77 @@
+@import "../../App.scss";
+
+.clr1 {
+  background: #ffcccc;
+}
+.clr2 {
+  background: #ffffcc;
+}
+.clr3 {
+  background: #ccffcc;
+}
+.clr4 {
+  background: #ccffff;
+}
+.clr5 {
+  background: #ccccff;
+}
+.clr6 {
+  background: #ffccff;
+}
+.clr7 {
+  background: #ffe5cc;
+}
+.clr8 {
+  background: #e5ffcc;
+}
+.clr9 {
+  background: #ccffe5;
+}
+.clr10 {
+  background: #cce5ff;
+}
+.clr11 {
+  background: #e5ccff;
+}
+.clr12 {
+  background: #ffcce5;
+}
+
+.courses {
+  .choose {
+    font-weight: 600;
+  }
+  .chooseinfo {
+    font-size: 0.9rem;
+    line-height: 2rem;
+  }
+  .card {
+    border-radius: 0;
+    align-items: center;
+    box-shadow: 0 0 10px #554a4a33;
+    transition: all 0.3s linear;
+    cursor: pointer;
+    &:hover {
+      box-shadow: 0 0 15px #554a4a5e;
+    }
+    svg {
+      font-size: 2rem;
+      padding: 1rem;
+      border-radius: 0.2rem;
+      width: 4rem;
+      height: 4rem;
+    }
+    .card-title {
+      font-weight: 600;
+    }
+    .card-text {
+      font-size: 0.8rem;
+    }
+    .footer {
+      p {
+        font-weight: 500;
+        font-size: 0.9rem;
+      }
+    }
+  }
+}

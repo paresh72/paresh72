@@ -1,0 +1,42 @@
+@import "../../App.scss";
+
+.footer {
+  .navbar-brand {
+    .sp1 {
+      font-weight: 600;
+    }
+    .sp2 {
+      font-weight: 500;
+    }
+  }
+  .address {
+    font-size: 1rem;
+  }
+  .social-links {
+    a {
+      font-size: 1.4rem;
+      padding-right: 1rem;
+      text-decoration: none;
+      color: $color-dback;
+    }
+  }
+  .aboutus,
+  .contactus,
+  .quicklinks {
+    h5 {
+      font-weight: 600;
+    }
+    ul {
+      padding: 0;
+      li {
+        list-style: none;
+        padding-top: 0.3rem;
+        font-size: 1rem;
+        a {
+          text-decoration: none;
+          color: $color-dback;
+        }
+      }
+    }
+  }
+}
